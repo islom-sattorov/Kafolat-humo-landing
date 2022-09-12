@@ -1,9 +1,13 @@
 import React from 'react'
-import Style from './Card.module.css'
+import style from './Card.module.css'
 
-const SectionTest = () => {
+const SectionTest = (props) => {
     return (
-        <h1 className={Style.title}>Test</h1>
+        <div className={style.card__item}>
+            <img src={props.src} alt='' />
+            <h3 className={style.title}>{props.title}</h3>
+            <p className={style.subtitle}>{props.subtitle}</p>
+        </div>
     )
 }
 
