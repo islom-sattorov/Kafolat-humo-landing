@@ -1,8 +1,9 @@
 import React from 'react'
+import Style from './Card.module.css'
 
 const SectionTest = () => {
     return (
-        <h1>Test</h1>
+        <h1 className={Style.title}>Test</h1>
     )
 }
 

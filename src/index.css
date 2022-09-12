@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *,
 *::before,
 *::after {
@@ -19,3 +20,5 @@ body {
   max-width: 1200px;
   height: 100vh;
 }
+=======
+>>>>>>> ac4b8ff (add: card component)
