@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: 60px;
+}
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  list-style-type: none;
+}
+
+.navbar-links > li > a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #2d2d2d;
+}
+
+.tel-number > a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #2d2d2d;
+}
