@@ -1,15 +1,15 @@
 import "./App.css";
 import Card from "./Components/Card/Card";
 import cardImage from './Components/Card/illustration.png';
+import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
-import Header from "./Components/Header/Header";
 
 function App() {
   return (
     <div className="container">
       <Navbar />
-       <Header />
+      <Header />
       <section className="card-items">
         <Card
           src={cardImage}
@@ -42,6 +42,7 @@ function App() {
           subtitle='Вклады будут застрахованы в соответствии с Законом Республики Таджикистан «О страховании вкладов физических лиц»'
         />
       </section>
+      {/* Калькулятор */}
     </div>
   );
 }
