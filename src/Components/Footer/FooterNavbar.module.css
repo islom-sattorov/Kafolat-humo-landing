@@ -1,0 +1,25 @@
+.gray_container {
+  background-color: #eeeeee;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 27px 0px;
+}
+
+.links > li {
+  list-style-type: none;
+}
+
+.links > li > a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #2d2d2d;
+}
