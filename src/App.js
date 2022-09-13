@@ -1,4 +1,5 @@
 import "./App.css";
+import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
 import cardImage from "./Components/Card/illustration.png";
 import Footer from "./Components/Footer/Footer";
@@ -34,14 +35,17 @@ function App() {
         <h2 className="card-title">Преимущество вкладов в Хумо</h2>
         <section className="card-items">
           <NumberedCard
+            num={1}
             title="Управляйте Онлайн"
             subtitle="Вклады будут застрахованы в соответствии с Законом Республики Таджикистан «О страховании вкладов физических лиц»"
           />
           <NumberedCard
+            num={2}
             title="Управляйте Онлайн"
             subtitle="Вклады будут застрахованы в соответствии с Законом Республики Таджикистан «О страховании вкладов физических лиц»"
           />
           <NumberedCard
+            num={3}
             title="Выбирайте условия"
             subtitle="Вклады будут застрахованы в соответствии с Законом Республики Таджикистан «О страховании вкладов физических лиц»"
           />
@@ -74,6 +78,7 @@ function App() {
           num={3}
           titleSecond='Заполните онлайн-заявку и посетите банк' />
       </section>
+      <Block />
       <FooterNavbar />
       <Footer />
     </>
