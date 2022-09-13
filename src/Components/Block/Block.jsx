@@ -10,10 +10,12 @@ const Block = () => {
     <div className="container">
       <div className="header-promo-block">
         <div className="block-content">
-          <h1 className="header-promo-block-title">
-            Установите <span className=".span_item">Хумо Онлайн, </span>
-            чтобы управлять своим депозитом
-          </h1>
+          <div className="header-promo-block-title">
+            <h1>
+              Установите <span className=".span_item">Хумо Онлайн, </span>
+              чтобы управлять своим депозитом
+            </h1>
+          </div>
           <div className="block-btns">
             <img src={gglplay} className="block-btn-btn" alt="ggl" />
             <img src={appstore} className="block-btn-btn" alt="ggl" />
