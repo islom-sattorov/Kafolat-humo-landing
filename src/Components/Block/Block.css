@@ -12,9 +12,11 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
   line-height: 130%;
   color: #2d2d2d;
+}
+.header-promo-block-title > h1 {
+  font-size: 48px;
 }
 
 .header-promo-block-title span {
