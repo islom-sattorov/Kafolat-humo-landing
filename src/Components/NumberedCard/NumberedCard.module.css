@@ -1,12 +1,28 @@
 .num__card__item{
     width: 384px;
-    height: 195px;
+    height: max-content;
     border-radius: 24px;
     padding: 40px 24px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     background: #fff;
+    position: relative;
+}
+
+.num{
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    padding: 10px;
+    background: #ff5a1e;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: -25px;
+    left: 165px;
 }
 
 .title{
@@ -22,3 +38,11 @@
     text-align: center;
     color: #777777;
 }
+
+.titleSecond{
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    color: #2d2d2d;
+}
+
