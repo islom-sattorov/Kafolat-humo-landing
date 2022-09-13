@@ -1,0 +1,31 @@
+.wrapper_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    background: #fff;
+    border-radius: 24px;
+    width: 588px;
+    height: 220px;
+    padding: 24px;
+}
+
+.wrapper_text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #2d2d2d;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2d2d2d;
+}
+
+

@@ -1,0 +1,44 @@
+.header-promo-block {
+    background: #ffedd7;
+    border-radius: 32px;
+  }
+  .header-promo-block-content {
+    padding: 144px 533px 194px 40px;
+  }
+  .header-promo-block-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    color: #212121;
+    padding-bottom: 12px;
+  }
+
+  .header-promo-block-title span{
+    color: #ff5a1e;
+  }
+  
+  .header-promo-block-subtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #2d2d2d;
+    padding-bottom: 32px;
+  }
+  
+  .header-promo-btn {
+    padding: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #ff5a1e;
+    border-radius: 64px;
+    border: none;
+  }
+  
