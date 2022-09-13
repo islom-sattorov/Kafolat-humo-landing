@@ -3,11 +3,13 @@ import Card from "./Components/Card/Card";
 import cardImage from './Components/Card/illustration.png';
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Navbar />
+       <Header />
       <section className="card-items">
         <Card
           src={cardImage}
