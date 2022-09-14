@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import Block from "./Components/Block/Block";
 import Card from "./Components/Card/Card";
