@@ -1,8 +1,8 @@
 import React from "react";
+import appgallery from "./appgallery.svg";
+import appstore from "./appstore.svg";
 import "./Block.css";
 import gglplay from "./gglplay.svg";
-import appstore from "./appstore.svg";
-import appgallery from "./appgallery.svg";
 import phone from "./phone.svg";
 
 const Block = () => {

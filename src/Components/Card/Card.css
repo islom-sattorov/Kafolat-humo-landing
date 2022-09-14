@@ -47,4 +47,10 @@
     }
 }
 
+@media (max-width: 900px){
+    .card-item img{
+        width: 50%;
+    }
+}
+
 
