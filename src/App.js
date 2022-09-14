@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Block from "./Components/Block/Block";
 import Card from "./Components/Card/Card";
@@ -10,6 +11,7 @@ import NumberedCard from "./Components/NumberedCard/NumberedCard";
 import WrapperImg1 from "./Components/WrapperCard/card1.png";
 import WrapperImg2 from "./Components/WrapperCard/card2.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
+
 
 function App() {
   return (
