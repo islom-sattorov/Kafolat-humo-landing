@@ -7,7 +7,7 @@ import phone from './img.svg'
 
 const Block = () => {
     return (
-        <div className={style.test}>
+        <div className={style.margin_container}>
             <div className={style.block_container}>
                 <div className={style.text_container}>
                     <h2>Установите <span>Хумо Онлайн,</span> чтобы управлять своим депозитом</h2>
