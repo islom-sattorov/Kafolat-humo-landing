@@ -4,6 +4,7 @@
   background: #f5f6f7;
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 .navbar {

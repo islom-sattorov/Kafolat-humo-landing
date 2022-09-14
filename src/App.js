@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css";
-import BlockTest from './Components/BlockTest/BlockTest';
+import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
 import Footer from "./Components/Footer/Footer";
 import FooterNavbar from "./Components/Footer/FooterNavbar";
@@ -59,8 +59,7 @@ function App() {
           titleSecond="Заполните онлайн-заявку и посетите банк"
         />
       </section>
-      {/* <Block /> */}
-      <BlockTest />
+      <Block />
       <FooterNavbar />
       <Footer />
     </>
