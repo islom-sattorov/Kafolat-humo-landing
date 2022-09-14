@@ -41,4 +41,18 @@
     min-width: 130px;
 }
 
+.block-btns {
+    padding-top: 32px;
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .block-btn-btn {
+    height: 40px;
+    width: 133px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    border: none;
+  }
 
