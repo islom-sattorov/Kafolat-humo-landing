@@ -1,3 +1,10 @@
+.block-container {
+  padding: 0px 15px;
+  margin: 0 auto;
+  max-height: 550px;
+  max-width: 1200px;
+  margin-bottom: 120px;
+}
 .header-promo-block {
   background: #ffedd7;
   border-radius: 32px;
@@ -42,4 +49,7 @@
   /* height: 410px; */
   padding-top: 146px;
   padding-right: 60px;
+  /* width: 80%; */
+  max-width: 280px;
+  min-height: 580px;
 }
