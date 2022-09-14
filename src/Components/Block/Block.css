@@ -8,6 +8,7 @@
 .header-promo-block {
   background: #ffedd7;
   border-radius: 32px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
 }
@@ -51,5 +52,5 @@
   padding-right: 60px;
   /* width: 80%; */
   max-width: 280px;
-  min-height: 580px;
+  max-height: 580px;
 }
