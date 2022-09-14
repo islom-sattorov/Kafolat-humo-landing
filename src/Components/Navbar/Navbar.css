@@ -1,6 +1,9 @@
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
+.navbar-container {
+  margin: 0px auto;
+  width: 100vw;
+  background: #f5f6f7;
+  position: sticky;
+  top: 0px;
 }
 
 .navbar {
@@ -8,8 +11,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 23px;
-  margin-bottom: 60px;
+  padding-top: 23px;
+  padding-bottom: 30px;
 }
 .navbar-links {
   display: flex;
