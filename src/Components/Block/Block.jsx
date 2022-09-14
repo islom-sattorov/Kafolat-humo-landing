@@ -7,7 +7,7 @@ import phone from "./phone.svg";
 
 const Block = () => {
   return (
-    <div className="container">
+    <div className="block-container">
       <div className="header-promo-block">
         <div className="block-content">
           <div className="header-promo-block-title">
