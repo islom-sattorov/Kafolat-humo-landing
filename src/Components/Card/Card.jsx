@@ -1,15 +1,27 @@
 import React from "react";
-import style from "./Card.module.css";
+import './Card.css';
+import card1 from './illustration.png';
 
 const SectionTest = (props) => {
   return (
-    <div className="container">
-      <div className={style.card__item}>
-        <div className="card-content">
-          <img src={props.src} alt="" />
-          <h3 className={style.title}>{props.title}</h3>
-          <p className={style.subtitle}>{props.subtitle}</p>
-        </div>
+    <div className="card-container">
+      <div className="card-item">
+        <img src={card1}
+          alt="none" />
+        <h3 className='card-title-text'>Ставка 17%</h3>
+        <p className="card-subtitle">Годовых</p>
+      </div>
+      <div className="card-item">
+        <img src={card1}
+          alt="none" />
+        <h3 className='card-title-text'>Ставка 17%</h3>
+        <p className="card-subtitle">Годовых</p>
+      </div>
+      <div className="card-item">
+        <img src={card1}
+          alt="none" />
+        <h3 className='card-title-text'>Ставка 17%</h3>
+        <p className="card-subtitle">Годовых</p>
       </div>
     </div>
   );
