@@ -18,7 +18,7 @@ function App() {
       <div className="container">
         <Header />
         <Card />
-        <h2 className="card-title">Преимущество вкладов в Хумо</h2>
+        <h2 id="NumberedCard1" className="card-title">Преимущество вкладов в Хумо</h2>
         <section className="card-items">
           <NumberedCard
             num={1}
@@ -38,13 +38,15 @@ function App() {
         </section>
       </div>
       {/* Калькулятор */}
-      <h2 className="card-title">Пополняйте вклад, как вам удобно</h2>
+      <h2
+        id='WrapperCard'
+        className="card-title">Пополняйте вклад, как вам удобно</h2>
       <Wrapper
         title="Пополнение через Хумо онлайн"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
         src={WrapperImg1}
       />
-      <h2 className="card-title">Открыть вклад легко</h2>
+      <h2 id='NumberedCard2' className="card-title">Открыть вклад легко</h2>
       <section className="card-items">
         <NumberedCard
           num={1}

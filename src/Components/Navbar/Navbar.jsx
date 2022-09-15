@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, spy } from 'react-scroll';
 import humoLogo from "./main-logo.svg";
 import "./Navbar.css";
 
@@ -12,24 +13,43 @@ const Navbar = () => {
           </a>
           <ul className="navbar-links">
             <li>
-              <a className="nav-link" href="#top">
+              <Link
+                activeClass="active"
+                to="NumberedCard1"
+                spy={spy}
+                smooth={true}
+                duration={500}
+                className="nav-link" href="#top">
                 Преимущества
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link" href="#top">
+              <Link className="nav-link" href="#top">
                 Калькулятор
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link" href="#top">
+              <Link
+                activeClass="active"
+                to="WrapperCard"
+                spy={spy}
+                smooth={true}
+                duration={500}
+                className="nav-link" href="#top">
                 Пополнение
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link" href="#top">
+              <Link
+                activeClass="active"
+                to="NumberedCard2"
+                spy={spy}
+                smooth={true}
+                duration={500}
+
+                className="nav-link" href="#top">
                 Открытие вклада
-              </a>
+              </Link>
             </li>
           </ul>
           <span className="tel-number">
