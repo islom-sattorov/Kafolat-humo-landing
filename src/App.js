@@ -10,7 +10,6 @@ import NumberedCard from "./Components/NumberedCard/NumberedCard";
 import WrapperImg1 from "./Components/WrapperCard/card1.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
 
-
 function App() {
   return (
     <>
@@ -38,6 +37,7 @@ function App() {
         </section>
       </div>
       {/* Калькулятор */}
+      {/* <Calculator /> */}
       <h2
         id='WrapperCard'
         className="card-title">Пополняйте вклад, как вам удобно</h2>

@@ -46,7 +46,6 @@ const Navbar = () => {
                 spy={spy}
                 smooth={true}
                 duration={500}
-
                 className="nav-link" href="#top">
                 Открытие вклада
               </Link>

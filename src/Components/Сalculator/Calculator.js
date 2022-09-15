@@ -1,7 +1,7 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import InputRange from "react-input-range";
-import styles from "./Calculator.module.scss";
 import "react-input-range/lib/css/index.css";
+import styles from "./Calculator.module.scss";
 
 const Calculator = () => {
   const [activeCourse, setActiveCourse] = useState("TJS");
