@@ -1,9 +1,9 @@
 import React from "react";
+import fb from "./fb.svg";
 import "./Footer.css";
 import inst from "./inst.svg";
 import teleg from "./teleg.svg";
 import vk from "./vk.svg";
-import fb from "./fb.svg";
 
 const Footer = () => {
   return (

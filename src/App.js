@@ -4,7 +4,7 @@ import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
 import Footer from "./Components/Footer/Footer";
 import FooterNavbar from "./Components/Footer/FooterNavbar";
-import Header from "./Components/Header/Header";
+import Header from './Components/Header/Header';
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
 import WrapperImg1 from "./Components/WrapperCard/card1.png";
@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       <div className="container">
         <Header />
+        {/* <BlockTest /> */}
         <Card />
         <h2 id="NumberedCard1" className="card-title">Преимущество вкладов в Хумо</h2>
         <section className="card-items">
