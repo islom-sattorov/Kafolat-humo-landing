@@ -3,14 +3,17 @@
   margin: 0 auto;
   margin-bottom: 30px;
   max-height: 550px;
+  width: 100%;
   max-width: 1200px;
 }
+
 .header-promo-block {
   background: #ffedd7;
   border-radius: 32px;
 }
 .header-promo-block-content {
-  padding: 144px 533px 194px 40px;
+  /* padding: 144px 533px 194px 40px; */
+  padding: 144px 470px 194px 40px;
 }
 .header-promo-block-title {
   font-family: "Montserrat";

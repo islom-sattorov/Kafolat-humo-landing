@@ -8,8 +8,8 @@ const Navbar = () => {
     <div className=" navbar-container">
       <div className="container">
         <div className="navbar">
-          <a href="https://humo.tj/ru/" target="_blank" rel="noreferrer">
-            <img className="navbar-logo" src={humoLogo} alt="#" />
+          <a href="https://humo.tj/ru/" target="_blank" rel="noopener noreferrer">
+            <img className="navbar-logo" src={humoLogo} alt="logo" />
           </a>
           <ul className="navbar-links">
             <li>
@@ -24,7 +24,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="nav-link" href="#top">
+              <Link
+                to="Calculator"
+                className="nav-link" href="#top">
                 Калькулятор
               </Link>
             </li>
