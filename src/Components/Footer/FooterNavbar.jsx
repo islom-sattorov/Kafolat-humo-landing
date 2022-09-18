@@ -10,16 +10,16 @@ const FooterNavbar = () => {
             <a href="https://humo.tj/ru/about/service/info/">О Хумо</a>
           </li>
           <li>
-            <a href="#bottom">Филиальная сеть</a>
+            <a href="https://humo.tj/ru/about/service/map/">Филиальная сеть</a>
           </li>
           <li>
             <a href="https://job.humo.tj/">Вакансии</a>
           </li>
           <li>
-            <a href="#bottom">Способы пополнения</a>
+            <a href="https://humo.tj/ru/personal/service/replenishment/">Способы пополнения</a>
           </li>
           <li>
-            <a href="#bottom">Наши контакты</a>
+            <a href="https://humo.tj/ru/about/service/contacts/">Наши контакты</a>
           </li>
         </ul>
       </div>
