@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, spy } from "react-scroll";
 import "./Header.css";
 
 const Header = () => {
@@ -10,7 +11,13 @@ const Header = () => {
           <h3 className="header-promo-block-subtitle">
             Получайте до 17% годовых
           </h3>
-          <button className="header-promo-btn">Открыть вклад</button>
+          <Link
+            activeClass="active"
+            to="NumberedCard2"
+            spy={spy}
+            smooth={true}
+            duration={500}
+            className="header-promo-btn">Открыть вклад</Link>
         </div>
       </div>
     </div>
