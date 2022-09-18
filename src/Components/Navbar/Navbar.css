@@ -46,3 +46,9 @@
   line-height: 130%;
   color: #2d2d2d;
 }
+
+@media (max-width: 1100px){
+  .navbar-links{
+    display: none;
+  }
+}

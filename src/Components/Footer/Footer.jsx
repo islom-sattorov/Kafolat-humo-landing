@@ -29,10 +29,10 @@ const Footer = () => {
             <a href="https://lahza.humo.tj/">Карта Лахза</a>
           </h1>
           <h1>
-            <a href="#bottom">Депозит - Кафолат ва даромад</a>
+            <a href="#bottom">Депозит &mdash; Кафолат ва даромад</a>
           </h1>
           <h1>
-            <a href="https://deposit.humo.tj/">Депозит - Сарчашма</a>
+            <a href="https://deposit.humo.tj/">Депозит &mdash; Сарчашма</a>
           </h1>
         </div>
         <div>
