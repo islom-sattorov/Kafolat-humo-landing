@@ -1,9 +1,9 @@
 import React from "react";
+import fb from "./fb.svg";
 import "./Footer.css";
 import inst from "./inst.svg";
 import teleg from "./teleg.svg";
 import vk from "./vk.svg";
-import fb from "./fb.svg";
 
 const Footer = () => {
   return (
@@ -29,10 +29,10 @@ const Footer = () => {
             <a href="https://lahza.humo.tj/">Карта Лахза</a>
           </h1>
           <h1>
-            <a href="#bottom">Депозит - Кафолат ва даромад</a>
+            <a href="#bottom">Депозит &mdash; Кафолат ва даромад</a>
           </h1>
           <h1>
-            <a href="https://deposit.humo.tj/">Депозит - Сарчашма</a>
+            <a href="https://deposit.humo.tj/">Депозит &mdash; Сарчашма</a>
           </h1>
         </div>
         <div>

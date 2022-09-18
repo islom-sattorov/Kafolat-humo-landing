@@ -1,6 +1,10 @@
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
+.navbar-container {
+  margin: 0px auto;
+  width: 100vw;
+  background: #f5f6f7;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 .navbar {
@@ -8,8 +12,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 23px;
-  margin-bottom: 60px;
+  padding-top: 23px;
+  padding-bottom: 30px;
 }
 .navbar-links {
   display: flex;
@@ -26,6 +30,11 @@
   font-size: 20px;
   line-height: 130%;
   color: #2d2d2d;
+  transition: 0.2s all;
+}
+
+.navbar-links > li > a:hover{
+  color: #ff5a1e;
 }
 
 .tel-number > a {
@@ -52,5 +61,11 @@
   .tel-number{
     font-size: 16px;
     
+@media (max-width: 1100px){
+  .navbar-links{
+    display: none;
+  }
+}
+
   }
 }
