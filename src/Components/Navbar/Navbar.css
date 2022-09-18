@@ -30,6 +30,11 @@
   font-size: 20px;
   line-height: 130%;
   color: #2d2d2d;
+  transition: 0.2s all;
+}
+
+.navbar-links > li > a:hover{
+  color: #ff5a1e;
 }
 
 .tel-number > a {
