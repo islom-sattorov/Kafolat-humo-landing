@@ -37,3 +37,20 @@
   border-radius: 64px;
   border: none;
 }
+
+@media screen and (max-width: 320px) {
+  .header-promo-block-content {
+    padding: 380px 25px 40px 25px;
+  }
+  .header-promo-block-title{
+    font-size: 2.4rem;
+  }
+  .header-promo-block-subtitle{
+    font-size: 1.4rem;
+  }
+  .header-promo-btn{
+    padding: 14px 32px ;
+    font-size: 18px;
+  }
+
+}

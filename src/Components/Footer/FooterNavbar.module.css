@@ -23,3 +23,9 @@
   line-height: 130%;
   color: #2d2d2d;
 }
+
+@media screen and (max-width: 320px){
+  .links{
+    flex-direction: column;
+  }
+}

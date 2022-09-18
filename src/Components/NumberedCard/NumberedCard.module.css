@@ -46,3 +46,21 @@
     color: #2d2d2d;
 }
 
+@media screen and (max-width: 320px){
+    .num__card__item{
+        width: 100%;
+    }
+    .num{
+        top: -25px;
+        left: 140px;
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    }
+    .titleSecond{
+        font-size: 1.6rem;
+    }
+}

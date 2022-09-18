@@ -13,3 +13,11 @@
     text-align: center;
     padding: 120px 0 0px 0;
 }
+@media screen and (max-width: 320px){
+    .card-items{
+        flex-direction: column;
+    }
+    .card-title{
+        font-size: 2.4rem;
+    }
+}
