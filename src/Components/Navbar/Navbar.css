@@ -37,3 +37,18 @@
   line-height: 130%;
   color: #2d2d2d;
 }
+
+
+@media (max-width: 768px){
+  .navbar-links{
+    display: none;
+  }
+  .navbar-logo{
+    width: 120px;
+    height: 38.95px;
+  }
+
+  .tel-number a{
+    font-size: 18px;
+  }
+}

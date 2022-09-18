@@ -2,9 +2,11 @@
   background: #ffedd7;
   border-radius: 32px;
 }
+
 .header-promo-block-content {
   padding: 144px 533px 194px 40px;
 }
+
 .header-promo-block-title {
   font-family: "Montserrat";
   font-style: normal;
@@ -36,4 +38,55 @@
   background: #ff5a1e;
   border-radius: 64px;
   border: none;
+}
+
+
+@media(max-width: 768px) {
+  .header-promo-block {
+    background: #FFEDD7;
+    padding: 0 0;
+    text-align: center;
+    border-radius: 24px;
+    width: 768px;
+    height: 520px;
+  }
+  
+  
+  .header-promo-block-content {
+    padding: 323px 160px 40x 160px;
+  }
+
+  .header-promo-block-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212121;
+    padding-bottom: 8px;
+  }
+
+  .header-promo-block-subtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #2d2d2d;
+    padding-bottom: 24px;
+  }
+
+  .header-promo-btn {
+    padding: 14px 32px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22xpx;
+    color: #ffffff;
+    background: #ff5a1e;
+    border-radius: 64px;
+    border: none;
+  }
+
 }

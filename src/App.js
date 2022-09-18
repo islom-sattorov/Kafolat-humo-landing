@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Card from "./Components/Card/Card";
 import cardImage from './Components/Card/illustration.png';

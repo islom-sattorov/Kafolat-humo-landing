@@ -19,3 +19,11 @@ body {
   margin: 0 auto;
   max-width: 1200px;
 }
+
+
+@media (max-width: 768px){
+  .container{
+    max-width: 720px;
+    margin: 0 auto;
+  }  
+}
