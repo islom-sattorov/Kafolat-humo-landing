@@ -60,10 +60,10 @@ const Footer = () => {
         <div className="sn-links">
           <p className="footer-description">Следите за нами в соцсетях:</p>
           <div className="sn-logos">
-            <img src={inst} alt="inst" href="" />
-            <img src={teleg} alt="telegram" href="" />
-            <img src={vk} alt="vk" href="" />
-            <img src={fb} alt="facebook" href="" />
+            <img src={inst} alt="inst" href="https://www.instagram.com/humo.tj/" />
+            <img src={teleg} alt="telegram" href="https://t.me/humocallcenter" />
+            <img src={vk} alt="vk" href="https://vk.com/humotj" />
+            <img src={fb} alt="facebook" href="https://facebook.com/mdohumo" />
           </div>
         </div>
       </div>
