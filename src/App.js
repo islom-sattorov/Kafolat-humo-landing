@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import spy, { Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 import "./App.css";
 import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
@@ -83,7 +83,7 @@ function App() {
       <Link
         activeClass="active"
         to="Header"
-        spy={spy}
+        spy={true}
         smooth={true}
         duration={500}
         style={{ display: visible ? 'inline' : 'none' }}
