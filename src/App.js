@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import "./App.css";
 import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
@@ -11,6 +12,19 @@ import WrapperImg1 from "./Components/WrapperCard/card1.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
 
 function App() {
+  const [visible, setVisible] = useState(false)
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop
+    if (scrolled > 300) {
+      setVisible(true)
+    } else if (scrolled <= 300) {
+      setVisible(false)
+    }
+  };
+
+  window.addEventListener('scroll', toggleVisible)
+
   return (
     <>
       <Navbar />
@@ -65,6 +79,15 @@ function App() {
       <Block />
       <FooterNavbar />
       <Footer />
+      {/* Btn to top */}
+      <Link
+        activeClass="active"
+        to="Header"
+        spy={true}
+        smooth={true}
+        duration={500}
+        style={{ display: visible ? 'inline' : 'none' }}
+        className='btn_to_top'>Открыть </Link>
     </>
   );
 }
