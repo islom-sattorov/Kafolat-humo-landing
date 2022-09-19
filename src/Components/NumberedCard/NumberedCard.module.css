@@ -1,24 +1,103 @@
-.num__card__item{
-    width: 384px;
-    height: 195px;
+.num__card__item {
+    max-width: 384px;
+    height: max-content;
     border-radius: 24px;
     padding: 40px 24px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
     background: #fff;
+    position: relative;
+    z-index: 0;
 }
 
-.title{
+.num {
+    max-width: 56px;
+    width: 100%;
+    height: max-content;
+    border-radius: 16px;
+    padding: 10px;
+    background: #ff5a1e;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: -25px;
+    left: 41%;
+}
+
+.title {
     font-weight: 500;
     font-size: 2.4rem;
     text-align: center;
     color: #2d2d2d;
 }
 
-.subtitle{
+.subtitle {
     font-weight: 400;
     font-size: 1.5rem;
     text-align: center;
     color: #777777;
+}
+
+.titleSecond {
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+@media (max-width: 768) {
+    .num__card__item {
+        max-width: 720px;
+        max-height: max-content;
+        width: 100%;
+        border-radius: 24px;
+        padding: 20px 24px 16px 24px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        background: #fff;
+        position: relative;
+        z-index: 0;
+        
+    }
+
+    .num {
+        max-width: 56px;
+        width: 100%;
+        height: max-content;
+        border-radius: 16px;
+        padding: 10px;
+        background: #ff5a1e;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        position: absolute;
+        top: -28px;
+        left: 41%;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #2d2d2d;
+    }
+
+    .subtitle {
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-align: center;
+        color: #777777;
+    }
+
+    .titleSecond {
+        font-weight: 400;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #2d2d2d;
+    }
 }

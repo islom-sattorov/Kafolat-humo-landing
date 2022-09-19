@@ -18,12 +18,18 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0px 15px;
 }
 
+@media(max-width: 1030px) {
+  html {
+    font-size: 8px;
+  }
+}
 
-@media (max-width: 768px){
-  .container{
+@media (max-width: 768px) {
+  .container {
     max-width: 720px;
     margin: 0 auto;
-  }  
+  }
 }
