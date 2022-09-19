@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import "./App.css";
 import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
@@ -22,6 +21,13 @@ function App() {
       setVisible(false)
     }
   };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
   window.addEventListener('scroll', toggleVisible)
 
@@ -80,14 +86,11 @@ function App() {
       <FooterNavbar />
       <Footer />
       {/* Btn to top */}
-      <Link
-        activeClass="active"
-        to="Header"
-        spy={true}
-        smooth={true}
-        duration={500}
+      <button
+        onClick={scrollToTop}
         style={{ display: visible ? 'inline' : 'none' }}
-        className='btn_to_top'>Открыть </Link>
+        className='btn_to_top'>To top
+      </button>
     </>
   );
 }
