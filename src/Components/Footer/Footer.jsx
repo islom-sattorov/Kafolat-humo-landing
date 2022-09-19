@@ -48,11 +48,9 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-scial-networks">
-        <div>
-          <p className="license">
-            © 2022 ЗАО МДО «Хумо» Лицензия НБТ №0000077 от 24 мая 2017 г.
-          </p>
-        </div>
+        <p className="license">
+          © 2022 ЗАО МДО «Хумо» Лицензия НБТ №0000077 от 24 мая 2017 г.
+        </p>
         <div className="sn-links">
           <p className="footer-description">Следите за нами в соцсетях:</p>
           <div className="sn-logos">
