@@ -27,3 +27,14 @@
     cursor: pointer;
     color: red;
 }
+@media (max-width: 320px){
+    .card-items{
+        flex-direction: column;
+        padding:60px 5px 0 5px;
+        margin-bottom: 0;
+    }
+    .card-title{
+        font-size: 2.4rem;
+        padding-top: 60px;
+    }
+}

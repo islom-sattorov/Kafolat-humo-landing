@@ -13,13 +13,13 @@ const Block = () => {
                     <h2>Установите <span>Хумо Онлайн,</span> чтобы управлять своим депозитом</h2>
                     <div className={style.block_btns}>
                         <a href='https://play.google.com/store/apps/details?id=tj.humo.online'>
-                            <img src={gglplay} className={style.block_btn_btn} alt="ggl" />
+                            <img src={gglplay} className={style.block_btn_btn } alt="ggl" />
                         </a>
                         <a href='https://apps.apple.com/ru/app/humo-online/id1242252363'>
-                            <img src={appstore} className={style.block_btn_btn} alt="ggl" />
+                            <img src={appstore} className={style.block_btn_btn } alt="ggl" />
                         </a>
                         <a href='https://apps.apple.com/ru/app/humo-online/id1242252363'>
-                            <img src={appgallery} className={style.block_btn_btn} alt="ggl" />
+                            <img src={appgallery} className={style.block_btn_btn } alt="ggl" />
                         </a>
                     </div>
                 </div>
