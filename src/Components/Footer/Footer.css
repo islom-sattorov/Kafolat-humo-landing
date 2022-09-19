@@ -3,7 +3,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 130%;
   color: #2d2d2d;
 }
@@ -12,23 +12,23 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 130%;
   color: #777777;
 }
 
 .footer-links {
-  margin: 48px 0px;
+  padding: 48px 0px;
   max-width: 800px;
   max-height: 300px;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
 }
 .footer-links > div > h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 130%;
   color: #2d2d2d;
   padding: 5px;
@@ -52,7 +52,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 130%;
   color: #777777;
 }
@@ -61,7 +61,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 130%;
   color: #666666;
 }
@@ -86,4 +86,72 @@
 .sn-logos {
   display: flex;
   gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-links > div > h1 {
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 130%;
+    font-weight: 500;
+  }
+  .footer-links {
+    margin: 28px 0px;
+    max-width: 800px;
+    max-height: 300px;
+  }
+
+  .footer-paragraph {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 130%;
+  }
+  .adress {
+    padding-bottom: 28px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #777777;
+  }
+
+  .hot-line > h1 {
+    font-size: 2rem;
+  }
+  .hot-line > p {
+    padding-top: 8px;
+    font-size: 1.7rem;
+  }
+
+  .footer-scial-networks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+
+  .sn-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+  }
+  .sn-links > .footer-description {
+    padding-top: 28px;
+  }
+
+  .sn-logos {
+    padding-top: 16px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .sn-logos > img {
+    width: 35px;
+  }
+
+  .footer-links {
+    padding: 0px 0px;
+    max-width: 462px;
+    max-height: 100px;
+  }
 }
