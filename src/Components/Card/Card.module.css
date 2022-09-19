@@ -5,11 +5,13 @@
   align-items: center;
 }
 .card__item {
+  max-width: 380px;
   background: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   border-radius: 24px;
+  padding: 0px auto;
 }
 
 .card__item img {

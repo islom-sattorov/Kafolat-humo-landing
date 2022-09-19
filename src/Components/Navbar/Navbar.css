@@ -17,8 +17,11 @@
 .navbar-links {
   display: flex;
   flex-direction: row;
-  gap: 23px;
   list-style-type: none;
+}
+.navbar-links > li {
+  display: flex;
+  padding: 0px 10px;
 }
 
 .navbar-links > li > a {
@@ -26,17 +29,57 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 130%;
   color: #2d2d2d;
 }
 
-.tel-number > a {
+@media (max-width: 1100px) {
+  .navbar > h2 > a {
+    font-size: 1.9rem;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    transition: 0.5s all ease;
+  }
+  .navbar-links > li > a {
+    font-size: 1.9rem;
+  }
+  .navbar-logo {
+    width: 110px;
+  }
+}
+
+@media (max-width: 970px) {
+  .navbar > h2 > a {
+    font-size: 1.7rem;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  .navbar-links > li > a {
+    font-size: 1.7rem;
+  }
+  .navbar-logo {
+    width: 50px;
+  }
+}
+
+.tel_number {
   text-decoration: none;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 130%;
   color: #2d2d2d;
+}
+
+.navbar-logo {
+  width: 120px;
 }
