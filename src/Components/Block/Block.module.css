@@ -1,139 +1,99 @@
 .block_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    background: #ffedd7;
-    margin: 0 auto;
-    border-radius: 32px;
-    max-width: 1200px;
-    width: 100%;
-    max-height: 550px;
-    height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background: #ffedd7;
+  margin: 0 auto;
+  border-radius: 32px;
+  max-width: 1200px;
+  width: 100%;
+  max-height: 550px;
+  height: max-content;
 }
 
 .block_container .text_container {
-    padding: 0 0 32px 60px;
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  padding: 0 0 32px 60px;
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .block_container .text_container h2 {
-    font-size: 4.5rem;
-    line-height: 120%;
-    font-weight: 700;
-    color: #2d2d2d;
+  font-size: 4.5rem;
+  line-height: 120%;
+  font-weight: 700;
+  color: #2d2d2d;
 }
 
 .block_container .text_container h2 span {
-    color: #ff5a1e;
+  color: #ff5a1e;
 }
 
-.block_container .phone {
-    padding: 20px 15px 0 0;
-    max-width: 280px;
-    width: 100%;
+.block_container > .phone {
+  padding: 20px 15px 0 0;
+  max-width: 280px;
+  width: 100%;
 }
 
 .margin_container {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .block_btns {
-    padding-top: 32px;
-    gap: 16px;
-    display: flex;
+  padding-top: 32px;
+  gap: 16px;
+  display: flex;
 }
 
 .block_btn_btn {
-    max-width: 130px;
-    width: 100%;
-    max-height: 40px;
-    height: 100%;
+  max-width: 130px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
 }
-
 
 @media (max-width: 800px) {
-    .block_btns {
-        gap: 8px;
-    }
+  .block_btns {
+    gap: 8px;
+  }
 }
 
-@media(max-width: 768px) {
-    .block_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #ffedd7;
-        margin: 0 auto;
-        border-radius: 24px;
-        max-width: 720px;
-        width: 100%;
-        max-height: 550px;
-        height: 100%;
-    }
+@media (max-width: 768px) {
+  .block_container {
+    gap: 0px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
+    background: #ffedd7;
+    border-radius: 32px;
+    overflow: hidden;
 
-    .text_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 32px;
-        width: 580px;
-        height: 156px;
-       
-    }
+    /* overflow: hidden; */
+  }
+  .block_container > .text_container {
+    max-width: 580px;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  .block_container > .text_container > h2 {
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    font-size: 3.2rem;
+  }
+  .block_btns {
+    padding-bottom: 30px;
+    padding-top: 32px;
+    gap: 16px;
+    display: flex;
+  }
 
-
-
-    .block_container .text_container {
-        width: 580px;
-        padding-top: 50px;
-        
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 130%;
-        text-align: center;
-        color: #2D2D2D;
-    }
-
-    .block_container .text_container h2 span {
-        color: #ff5a1e;
-    }
-
-  
-    .block_container .phone {
-        /* height: 479.35px; */
-        /* padding: 256px 240px 0 240px; */
-        max-width: 240px;
-        width: 100%;
-        padding-bottom: 45px
-    }
-
-    .margin_container {
-        margin: 0 15px;
-    }
-
-    .block_btns {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding-top: 50px;
-        gap: 16px;
-        width: 431px;
-        height: 40px;
-        left: 74.5px;
-        top: 116px;
-    }
-
-    .block_btn_btn {
-        max-width: 133px;
-        width: 100%;
-        max-height: 40px;
-        height: 100%;
-    }
-
+  .block_container > .phone {
+    justify-self: center;
+    margin: 0;
+    gap: 0px;
+  }
 }
