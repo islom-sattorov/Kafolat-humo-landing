@@ -23,7 +23,7 @@ const Block = () => {
                         </a>
                     </div>
                 </div>
-                <img className={style.phone} src={phone} />
+                <img className={style.phone} src={phone} alt='phone' />
             </div>
         </div>
     )
