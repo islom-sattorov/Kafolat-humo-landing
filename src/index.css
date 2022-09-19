@@ -26,3 +26,9 @@ body {
     font-size: 8px;
   }
 }
+@media(max-width: 320px){
+  .container{
+    max-width: 320px;
+    padding: 0 10px;
+  }
+}

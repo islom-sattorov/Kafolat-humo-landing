@@ -52,5 +52,21 @@
         width: 50%;
     }
 }
+@media (max-width: 320px){
+    .card-container{
+        flex-direction: column;
+        margin-top: 0;
+        padding-top:60px;
+        padding-bottom: 0;
+    }
+    .card-item{
+        width: 100%;
+        height: max-content;
+    }
+    .card__item img{
+        max-width: 180px;
+        max-height: 180px;
+    }
 
+}
 

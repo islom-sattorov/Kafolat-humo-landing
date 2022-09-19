@@ -45,15 +45,21 @@
   border: none;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
+  .header-container{
+    max-height: 550px;
+    max-width: 320px;
+    padding: 0 0;
+  }
   .header-promo-block-content {
-    padding: 380px 25px 40px 25px;
+    padding: 360px 25px 40px 25px;
+    text-align: center;
   }
   .header-promo-block-title{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   .header-promo-block-subtitle{
-    font-size: 1.4rem;
+    font-size: 14px;
   }
   .header-promo-btn{
     padding: 14px 32px ;

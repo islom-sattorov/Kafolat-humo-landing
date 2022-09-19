@@ -48,15 +48,19 @@
     color: #2d2d2d;
 }
 
-@media screen and (max-width: 320px){
+@media (max-width: 320px){
     .num__card__item{
-        width: 100%;
+        max-width: 320px;
+        margin-bottom: 40px;
     }
     .num{
-        top: -25px;
-        left: 140px;
+        max-width: 50px;
+        font-size: 24px;
+        top: -28px;
+        right: 140px;
+        border-radius: 8px;
     }
-    .title{
+    /* .title{
         font-size: 1.8rem;
     }
     .subtitle{
@@ -64,5 +68,5 @@
     }
     .titleSecond{
         font-size: 1.6rem;
-    }
+    } */
 }
