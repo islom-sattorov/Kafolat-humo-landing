@@ -28,14 +28,10 @@ const Footer = () => {
           <h1>
             <a href="https://lahza.humo.tj/">Карта Лахза</a>
           </h1>
-          <h1>
-            <a href="#bottom">Депозит &mdash; Кафолат ва даромад</a>
-          </h1>
+
           <h1>
             <a href="https://deposit.humo.tj/">Депозит &mdash; Сарчашма</a>
           </h1>
-        </div>
-        <div>
           <h1>
             <a href="https://transfer.humo.tj/">Хумо переводы</a>
           </h1>
@@ -52,14 +48,13 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-scial-networks">
-        <div>
-          <p className="license">
-            © 2022 ЗАО МДО «Хумо» Лицензия НБТ №0000077 от 24 мая 2017 г.
-          </p>
-        </div>
+        <p className="license">
+          © 2022 ЗАО МДО «Хумо» Лицензия НБТ №0000077 от 24 мая 2017 г.
+        </p>
         <div className="sn-links">
           <p className="footer-description">Следите за нами в соцсетях:</p>
           <div className="sn-logos">
+
             <a href="https://www.instagram.com/humo.tj/">
               <img src={inst} alt='inst' />
             </a>
@@ -72,6 +67,7 @@ const Footer = () => {
             <a href="https://facebook.com/mdohumo">
               <img src={fb} alt="facebook" />
             </a>
+
           </div>
         </div>
       </div>
