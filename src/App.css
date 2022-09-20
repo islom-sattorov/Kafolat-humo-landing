@@ -14,19 +14,39 @@
     padding: 120px 0 0px 0;
 }
 
-.btn_to_top{
-    position: fixed;
-    /* width: 100%; */
-    left: 0.5%;
-    bottom: 40px;
-    height: 20px;
-    font-size: 3rem;
+.moveTop {
+    width: 65px;
+    height: 65px;
     border: none;
-    background: none;
-    z-index: 1;
+    background-color: #FF6600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
     cursor: pointer;
-    color: red;
+    animation: topScroll .3s linear;
+    transform: translateY(10px);
+    z-index: 100;
 }
+.moveTop img {
+    width: 20px;
+    transform: rotate(-90deg);
+}
+@keyframes topScroll {
+    0% {
+        opacity: 0;
+        transform: translateY(0px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+
+}
+
 @media (max-width: 320px){
     .card-items{
         flex-direction: column;

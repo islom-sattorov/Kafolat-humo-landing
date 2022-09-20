@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./App.css";
+import arrowTop from './assets/next_white.svg';
 import Block from './Components/Block/Block';
 import Card from "./Components/Card/Card";
 import Footer from "./Components/Footer/Footer";
@@ -15,11 +16,13 @@ function App() {
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop
+    const btnMoveToTop = document.getElementById('moveToTop');
     if (scrolled > 300) {
       setVisible(true)
     } else if (scrolled <= 300) {
       setVisible(false)
     }
+
   };
 
   const scrollToTop = () => {
@@ -89,7 +92,8 @@ function App() {
       <button
         onClick={scrollToTop}
         style={{ display: visible ? 'inline' : 'none' }}
-        className='btn_to_top'>To top
+        className='moveTop'>
+        <img src={arrowTop} alt='moveTop' />
       </button>
     </>
   );
