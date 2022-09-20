@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
 import WrapperImg1 from "./Components/WrapperCard/card1.png";
+import WrapperImg2 from "./Components/WrapperCard/card2.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
 
 function App() {

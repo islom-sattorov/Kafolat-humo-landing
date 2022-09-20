@@ -21,25 +21,22 @@ body {
   padding: 0px 15px;
 }
 
-@media(max-width: 1030px) {
+@media (max-width: 1030px) {
   html {
     font-size: 8px;
   }
 }
 
-
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
     margin: 0 auto;
-     }
-}
-
-@media(max-width: 320px){
-  .container{
-    max-width: 320px;
-    padding: 0 10px;
-
   }
 }
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 10px;
+  }
 }

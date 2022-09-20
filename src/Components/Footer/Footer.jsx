@@ -1,7 +1,6 @@
 import React from "react";
 import fb from "./fb.svg";
 import "./Footer.css";
-import FooterNavbar from "./FooterNavbar";
 import inst from "./inst.svg";
 import teleg from "./teleg.svg";
 import vk from "./vk.svg";
@@ -55,9 +54,8 @@ const Footer = () => {
         <div className="sn-links">
           <p className="footer-description">Следите за нами в соцсетях:</p>
           <div className="sn-logos">
-
             <a href="https://www.instagram.com/humo.tj/">
-              <img src={inst} alt='inst' />
+              <img src={inst} alt="inst" />
             </a>
             <a href="https://t.me/humocallcenter">
               <img src={teleg} alt="telegram" />
@@ -68,11 +66,10 @@ const Footer = () => {
             <a href="https://facebook.com/mdohumo">
               <img src={fb} alt="facebook" />
             </a>
-
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
