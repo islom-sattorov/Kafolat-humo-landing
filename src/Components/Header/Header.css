@@ -102,6 +102,14 @@
     border: none;
   }
 }
+@media (max-width: 446px){
+
+    .header-promo-block-content{
+      padding: 300px 100px 50px 100px;
+    text-align: center;
+    }
+
+}
 
 @media (max-width: 320px) {
   .header-container{

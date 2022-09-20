@@ -49,25 +49,60 @@
 }
 
 
-@media (max-width: 768) {
-    .num__card__item {
+@media (max-width: 768px) {
+    .num__card__item{
         max-width: 720px;
-        max-height: max-content;
         width: 100%;
-        border-radius: 24px;
         padding: 20px 24px 16px 24px;
-        gap: 16px;
-        display: flex;
-        flex-direction: column;
         gap: 14px;
-        background: #fff;
-        position: relative;
-        z-index: 0;
-        
+        margin: 12px 0;
+    }
+
+    .num{
+        max-width: 40px;
+        max-height: 40px;
+        font-size: 22px;
+        padding: 8px;
+        top: -28px;
+        left:48%;
+        border-radius: 8px;
+    }
+
+    .title{
+        font-size: 18px;
+    }
+
+    .titleSecond{
+        text-align: center;
+        margin: 0 0 20px 0;
     }
 }
+   
+@media (max-width: 320px){
+    .num__card__item{
+        max-width: 320px;
+        margin-bottom: 40px;
+    }
+    .num{
+        max-width: 50px;
+        font-size: 24px;
+        top: -28px;
+        right: 140px;
+        border-radius: 8px;
+    }
+    /* .title{
+        font-size: 1.8rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    }
+    .titleSecond{
+        font-size: 1.6rem;
+    } */
 
-    .num {
+}
+
+ /* .num {
         max-width: 56px;
         width: 100%;
         height: max-content;
@@ -101,28 +136,4 @@
         font-size: 1.8rem;
         text-align: center;
         color: #2d2d2d;
-    }
-
-@media (max-width: 320px){
-    .num__card__item{
-        max-width: 320px;
-        margin-bottom: 40px;
-    }
-    .num{
-        max-width: 50px;
-        font-size: 24px;
-        top: -28px;
-        right: 140px;
-        border-radius: 8px;
-    }
-    /* .title{
-        font-size: 1.8rem;
-    }
-    .subtitle{
-        font-size: 1.4rem;
-    }
-    .titleSecond{
-        font-size: 1.6rem;
     } */
-
-}
