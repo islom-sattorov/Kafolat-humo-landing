@@ -1,6 +1,12 @@
-import React from "react";
+
+
+
+
+import React, { useState } from 'react';
 import "./App.css";
-import Block from "./Components/Block/Block";
+import arrowTop from './assets/next_white.svg';
+import Block from './Components/Block/Block';
+
 import Card from "./Components/Card/Card";
 import Footer from "./Components/Footer/Footer";
 import FooterNavbar from "./Components/Footer/FooterNavbar";
@@ -11,6 +17,28 @@ import WrapperImg1 from "./Components/WrapperCard/card1.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
 
 function App() {
+  const [visible, setVisible] = useState(false)
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop
+    const btnMoveToTop = document.getElementById('moveToTop');
+    if (scrolled > 300) {
+      setVisible(true)
+    } else if (scrolled <= 300) {
+      setVisible(false)
+    }
+
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  window.addEventListener('scroll', toggleVisible)
+
   return (
     <>
       <Navbar />
@@ -69,6 +97,13 @@ function App() {
       <Block />
       <FooterNavbar />
       <Footer />
+      {/* Btn to top */}
+      <button
+        onClick={scrollToTop}
+        style={{ display: visible ? 'inline' : 'none' }}
+        className='moveTop'>
+        <img src={arrowTop} alt='moveTop' />
+      </button>
     </>
   );
 }

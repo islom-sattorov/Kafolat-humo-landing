@@ -55,6 +55,7 @@
     top: 0px;
     border-radius: 0px;
     border: none;
+
 }
 
 @media (max-width: 768px){
@@ -82,3 +83,28 @@
     
 
 }
+
+  }
+@media (max-width: 320px){
+    .wrapper_container{
+        flex-direction: column;
+    }
+    .wrapper_item{
+        width: 100%;
+        height: max-content;
+        border-radius: 16px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .wrapper_item img{
+        width:120px;
+        height: 120px;
+    }
+    /* .title{
+        font-size: 1.8rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    } */
+}
+

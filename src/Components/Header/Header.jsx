@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header-container">
+    <div id="Header" className="header-container">
       <div className="header-promo-block">
         <div className="header-promo-block-content">
           <h1 className="header-promo-block-title">Кафолат ва даромад</h1>

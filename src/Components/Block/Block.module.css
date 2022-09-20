@@ -1,23 +1,24 @@
-.block_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-  background: #ffedd7;
-  margin: 0 auto;
-  border-radius: 32px;
-  max-width: 1200px;
-  width: 100%;
-  max-height: 550px;
-  height: max-content;
+
+.block_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: #ffedd7;
+    margin: 0 auto;
+    border-radius: 32px;
+    max-width: 1200px;
+    /* width: 100%; */
+    max-height: 500px;
+    height: max-content;
 }
 
-.block_container .text_container {
-  padding: 0 0 32px 60px;
-  max-width: 700px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+.block_container .text_container{
+    padding: 0 0 32px 60px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .block_container .text_container h2 {
@@ -89,6 +90,7 @@
     padding-top: 32px;
     gap: 16px;
     display: flex;
+    
   }
 
   .block_container > .phone {
@@ -96,4 +98,44 @@
     margin: 0;
     gap: 0px;
   }
+
 }
+
+  
+
+  @media (max-width: 800px){
+    .block_btns{
+        gap: 8px;
+    }
+  }
+  @media (max-width: 320px){
+    .block_container{
+        max-width: 300px;
+        max-height: 390px;
+        flex-direction: column;
+        justify-content: stretch;
+        overflow: hidden;
+        gap:0;
+    }
+    .block_container .phone{
+        max-width: 180px;
+        max-height: 300px;
+        padding-left:15px ;
+    }
+    .block_container .text_container{
+        text-align: center;
+        padding:25px 10px 0 10px;
+    }
+    .block_container .text_container h2{
+        font-size: 18px;
+    }
+    .block_btns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block_btn_btn{
+        max-width: 110px;
+    }
+}
+

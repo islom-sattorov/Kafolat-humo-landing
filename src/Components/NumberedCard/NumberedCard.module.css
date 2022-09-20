@@ -48,6 +48,7 @@
     color: #2d2d2d;
 }
 
+
 @media (max-width: 768) {
     .num__card__item {
         max-width: 720px;
@@ -100,4 +101,27 @@
         text-align: center;
         color: #2d2d2d;
     }
+
+@media (max-width: 320px){
+    .num__card__item{
+        max-width: 320px;
+        margin-bottom: 40px;
+    }
+    .num{
+        max-width: 50px;
+        font-size: 24px;
+        top: -28px;
+        right: 140px;
+        border-radius: 8px;
+    }
+    /* .title{
+        font-size: 1.8rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    }
+    .titleSecond{
+        font-size: 1.6rem;
+    } */
+
 }
