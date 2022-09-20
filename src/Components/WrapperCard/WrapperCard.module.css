@@ -11,8 +11,7 @@
     gap: 16px;
     background: #fff;
     border-radius: 24px;
-    max-width: 360px;
-    /* width: 100%; */
+    max-width: 588px;
     height: 220px;
     padding: 24px;
 }
@@ -61,7 +60,6 @@
 @media (max-width: 768px){
     .wrapper_container {
         max-width: 720px;
-        /* height: 220px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -84,7 +82,7 @@
 
 }
 
-  }
+  
 @media (max-width: 320px){
     .wrapper_container{
         flex-direction: column;

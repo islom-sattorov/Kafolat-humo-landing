@@ -52,6 +52,7 @@
   .navbar-links {
     display: none;
   }
+}
 
 @media (max-width: 768px) {
   .navbar-logo {
@@ -72,5 +73,4 @@
   .tel-number a{
     font-size: 16px;
   }
-
 }
