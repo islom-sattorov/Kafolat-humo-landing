@@ -11,11 +11,11 @@
   padding: 27px 0px;
 }
 
-.links > li {
+.links>li {
   list-style-type: none;
 }
 
-.links > li > a {
+.links>li>a {
   text-decoration: none;
   font-family: "Montserrat";
   font-style: normal;
@@ -23,4 +23,57 @@
   font-size: 20px;
   line-height: 130%;
   color: #2d2d2d;
+  transition: 0.2s all;
+}
+
+.links>li>a:hover {
+  color: #ff5a1e;
+}
+
+@media(max-width: 885px){
+  .links>li>a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gray_container {
+    margin-top: 104px;
+    background-color: #eeeeee;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 0px;
+  }
+
+  .links>li {
+    list-style-type: none;
+  }
+
+  .links>li>a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2d2d2d;
+    transition: 0.2s all;
+  }
+
+
+@media (max-width: 320px){
+  .links{
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .links > li > a{
+    font-size: 16px;
+  }
+
+}
 }
