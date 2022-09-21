@@ -7,10 +7,12 @@ import FooterNavbar from "./Components/Footer/FooterNavbar";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
+import ScrollBtn from "./Components/ScrollBtn/ScrollBtn";
 import WrapperImg1 from "./Components/WrapperCard/card1.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
 
 function App() {
+
   return (
     <>
       <Navbar />
@@ -69,6 +71,7 @@ function App() {
       <Block />
       <FooterNavbar />
       <Footer />
+      <ScrollBtn />
     </>
   );
 }

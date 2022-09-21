@@ -86,54 +86,9 @@
     .num{
         max-width: 50px;
         font-size: 24px;
-        top: -28px;
-        right: 140px;
+        top: -19px;
         border-radius: 8px;
+        left: 45%;
     }
-    /* .title{
-        font-size: 1.8rem;
-    }
-    .subtitle{
-        font-size: 1.4rem;
-    }
-    .titleSecond{
-        font-size: 1.6rem;
-    } */
 
 }
-
- /* .num {
-        max-width: 56px;
-        width: 100%;
-        height: max-content;
-        border-radius: 16px;
-        padding: 10px;
-        background: #ff5a1e;
-        color: #fff;
-        text-align: center;
-        font-size: 30px;
-        font-weight: 500;
-        position: absolute;
-        top: -28px;
-        left: 41%;
-    }
-    .title {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        color: #2d2d2d;
-    }
-
-    .subtitle {
-        font-weight: 400;
-        font-size: 1.4rem;
-        text-align: center;
-        color: #777777;
-    }
-
-    .titleSecond {
-        font-weight: 400;
-        font-size: 1.8rem;
-        text-align: center;
-        color: #2d2d2d;
-    } */

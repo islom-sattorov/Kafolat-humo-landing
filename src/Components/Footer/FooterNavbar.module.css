@@ -69,13 +69,24 @@
 }
 
 
-@media (max-width: 624px){
+@media (max-width: 644px){
   .links{
-    gap: 5px;
+    gap: 10px;
   }
 
   .links>li>a{
     font-size: 12px;
+  }
+}
+
+@media(max-width: 544px){
+  .links{
+    flex-direction: column;
+    padding-left: 10px;
+    padding: 25px 0;
+  }
+  .links > li > a{
+    font-size: 16px;
   }
 }
 

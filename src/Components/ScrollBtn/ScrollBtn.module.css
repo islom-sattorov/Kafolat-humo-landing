@@ -1,0 +1,43 @@
+.btn_to_top{
+    width: 65px;
+    height: 65px;
+    background-color: #FF6600;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    left: 8px;
+    cursor: pointer;
+    animation: topScroll .3s linear;
+    transform: translateY(10px);
+    z-index: 100;
+    transition: 0.2s all ease;
+}
+
+
+.btn_to_top img {
+    width: 12px;
+    transform: rotate(-90deg);
+}
+
+
+
+
+@keyframes topScroll {
+    0% {
+        opacity: 0;
+        transform: translateY(0px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+
+}
+
+
+
+
