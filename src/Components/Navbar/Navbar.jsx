@@ -53,9 +53,12 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <span className="tel-number">
-            <a href="tel:+992(44)6405544">+992 (44) 640 55 44</a>
-          </span>
+
+          <h2>
+            <a className="tel_number" href="tel:+992(44)6405544">
+              +992 (44) 640 55 44
+            </a>
+          </h2>
         </div>
       </div>
     </div>
