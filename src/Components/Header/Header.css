@@ -5,6 +5,7 @@
   max-height: 550px;
   width: 100%;
   max-width: 1200px;
+
 }
 
 .header-promo-block {
@@ -50,6 +51,11 @@
   cursor: pointer;
 }
 
+@media (max-width: 905px){
+  .header-promo-block-content {
+    padding: 144px 320px 230px 40px;
+  }
+}
 
 @media (max-width: 768px) {
   .header-container {
@@ -102,13 +108,18 @@
     border: none;
   }
 }
-@media (max-width: 446px){
-
-    .header-promo-block-content{
-      padding: 300px 100px 50px 100px;
+@media (max-width: 447px){
+.header-promo-block-content{
+    padding: 300px 100px 50px 100px;
     text-align: center;
     }
 
+}
+
+@media (max-width: 400px){
+  .header-promo-block-content{
+    padding: 280px 50px 50px 50px;
+  }
 }
 
 @media (max-width: 320px) {
