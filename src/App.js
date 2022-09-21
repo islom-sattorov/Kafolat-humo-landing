@@ -17,7 +17,6 @@ function App() {
       <Navbar />
       <Header />
       <div className="container">
-        {/* <BlockTest /> */}
         <Card />
         <h2 id="NumberedCard1" className="card-title">
           Преимущество вкладов в Хумо

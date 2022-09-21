@@ -48,6 +48,7 @@
 @media (max-width: 768px) {
   .card-items {
     display: flex;
+    justify-content: stretch;
     align-items: center;
     flex-direction: column;
     padding: 80px 24px 0 24px;
@@ -58,6 +59,13 @@
         padding: 80px 10px 0 10px;
     }
 
+}
+
+@media(max-width: 420px){
+  .card-items{
+    padding: 60px 0;
+    border: 1px solid red;
+  }
 }
 
 @media (max-width: 320px) {
