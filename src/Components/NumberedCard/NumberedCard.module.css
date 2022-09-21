@@ -63,7 +63,7 @@
         max-height: 40px;
         font-size: 22px;
         padding: 8px;
-        top: -28px;
+        top: -25px;
         left:48%;
         border-radius: 8px;
     }
@@ -77,6 +77,12 @@
         margin: 0 0 20px 0;
     }
 }
+
+@media (max-width: 490px){
+    .num{
+        left: 46%;
+    }
+}
    
 @media (max-width: 320px){
     .num__card__item{
@@ -84,11 +90,9 @@
         margin-bottom: 40px;
     }
     .num{
-        max-width: 50px;
-        font-size: 24px;
-        top: -19px;
+        top: -24px;
         border-radius: 8px;
-        left: 45%;
+        left: 42%;
     }
 
 }
