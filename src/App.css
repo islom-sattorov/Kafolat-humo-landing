@@ -64,7 +64,6 @@
 @media(max-width: 420px){
   .card-items{
     padding: 60px 0;
-    border: 1px solid red;
   }
 }
 
