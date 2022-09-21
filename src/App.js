@@ -12,7 +12,6 @@ import WrapperImg1 from "./Components/WrapperCard/card1.png";
 import Wrapper from "./Components/WrapperCard/WrapperCard";
 
 function App() {
-
   return (
     <>
       <Navbar />
@@ -39,17 +38,17 @@ function App() {
             subtitle="Вклады будут застрахованы в соответствии с Законом Республики Таджикистан «О страховании вкладов физических лиц»"
           />
         </section>
+        <h2 id="WrapperCard" className="card-title">Пополняйте вклад, как вам удобно</h2>
+        <section className="card-items">
+          <Wrapper
+            title="Пополнение через Хумо онлайн"
+            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            src={WrapperImg1}
+          />
+        </section>
       </div>
       {/* Калькулятор */}
       {/* <Calculator /> */}
-      <h2 id="WrapperCard" className="card-title">
-        Пополняйте вклад, как вам удобно
-      </h2>
-      <Wrapper
-        title="Пополнение через Хумо онлайн"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-        src={WrapperImg1}
-      />
       <h2 id="NumberedCard2" className="card-title">
         Открыть вклад легко
       </h2>

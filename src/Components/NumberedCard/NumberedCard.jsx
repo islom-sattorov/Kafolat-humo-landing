@@ -1,5 +1,5 @@
-import React from 'react'
-import style from './NumberedCard.module.css'
+import React from "react";
+import style from "./NumberedCard.module.css";
 
 const NumberedCard = (props) => {
     return (
@@ -14,4 +14,4 @@ const NumberedCard = (props) => {
     )
 }
 
-export default NumberedCard
+export default NumberedCard;
