@@ -1,4 +1,6 @@
 import React from "react";
+import ellipse from "./Ellipse.svg";
+import percent from "./percent.svg";
 import { Link, spy } from "react-scroll";
 import "./Header.css";
 
@@ -11,6 +13,7 @@ const Header = () => {
           <h3 className="header-promo-block-subtitle">
             Получайте до 17% годовых
           </h3>
+
           <Link
             activeClass="active"
             to="NumberedCard2"
@@ -18,6 +21,8 @@ const Header = () => {
             smooth={true}
             duration={500}
             className="header-promo-btn">Открыть вклад</Link>
+          <img src={ellipse} className="header-promo-block-ellipse" alt="ellipse" />
+          <img src={percent} className="header-promo-block-persent" alt="percent" />
         </div>
       </div>
     </div>
