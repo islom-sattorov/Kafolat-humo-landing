@@ -15,7 +15,7 @@ const Navbar = () => {
             <li>
               <Link
                 activeClass="active"
-                to="NumberedCard1"
+                to="Cards"
                 spy={spy}
                 smooth={true}
                 duration={500}
@@ -33,7 +33,7 @@ const Navbar = () => {
             <li>
               <Link
                 activeClass="active"
-                to="WrapperCard"
+                to="Protection"
                 spy={spy}
                 smooth={true}
                 duration={500}
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li>
               <Link
                 activeClass="active"
-                to="NumberedCard2"
+                to="NumberedCard"
                 spy={spy}
                 smooth={true}
                 duration={500}
