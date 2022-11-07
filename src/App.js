@@ -43,10 +43,11 @@ function App() {
         />
       </section>
       <Block />
+      </div>
       <FooterNavbar />
       <Footer />
       <ScrollBtn />
-      </div>
+      
     </>
   );
 }
