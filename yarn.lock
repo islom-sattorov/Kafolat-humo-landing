@@ -10250,10 +10250,10 @@
     "pify" "^3.0.0"
     "semver" "^5.5.0"
 
-"sass@^1.54.9":
-  "integrity" "sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q=="
-  "resolved" "https://registry.npmjs.org/sass/-/sass-1.54.9.tgz"
-  "version" "1.54.9"
+"sass@^1.56.0":
+  "integrity" "sha512-WFJ9XrpkcnqZcYuLRJh5qiV6ibQOR4AezleeEjTjMsCocYW59dEG19U3fwTTXxzi2Ed3yjPBp727hbbj53pHFw=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.56.0.tgz"
+  "version" "1.56.0"
   dependencies:
     "chokidar" ">=3.0.0 <4.0.0"
     "immutable" "^4.0.0"
@@ -12124,7 +12124,7 @@
   "resolved" "https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz"
   "version" "20.2.9"
 
-"yargs-parser@^21.0.0":
+"yargs-parser@^21.1.1":
   "integrity" "sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw=="
   "resolved" "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz"
   "version" "21.1.1"
@@ -12155,9 +12155,9 @@
     "yargs-parser" "^9.0.2"
 
 "yargs@^17.2.1":
-  "integrity" "sha512-leBuCGrL4dAd6ispNOGsJlhd0uZ6Qehkbu/B9KCR+Pxa/NVdNwi+i31lo0buCm6XxhJQFshXCD0/evfV4xfoUg=="
-  "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.6.1.tgz"
-  "version" "17.6.1"
+  "integrity" "sha512-1/9UrdHjDZc0eOU0HxOHoS78C69UD3JRMvzlJ7S79S2nTaWRA/whGCTV8o9e/N/1Va9YIV7Q4sOxD8VV4pCWOw=="
+  "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.6.2.tgz"
+  "version" "17.6.2"
   dependencies:
     "cliui" "^8.0.1"
     "escalade" "^3.1.1"
@@ -12165,7 +12165,7 @@
     "require-directory" "^2.1.1"
     "string-width" "^4.2.3"
     "y18n" "^5.0.5"
-    "yargs-parser" "^21.0.0"
+    "yargs-parser" "^21.1.1"
 
 "yargs@12.0.2":
   "integrity" "sha512-e7SkEx6N6SIZ5c5H22RTZae61qtn3PYUE8JYbBFlK9sYmh3DMQ6E5ygtaG/2BW0JZi4WGgTR2IV5ChqlqrDGVQ=="
