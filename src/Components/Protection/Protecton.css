@@ -72,6 +72,14 @@
         line-height: 130%;
     }
 
+    .protec-content h4{
+        text-align: start;
+    }
+
+    .protec-content p{
+        text-align: start;
+    }
+
 }
 @media(max-width:320px){
     .protec-container{
