@@ -123,12 +123,12 @@
 
     .container{
         margin: 0;
-        max-width: 720px;
+        max-width: 768px;
         padding: 0;
     }
 
     .header_container{
-        max-width: 720px;
+        max-width: 768px;
         max-height: 520px;
         padding: 323px 0px 40px 0px;
     }
