@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className=" navbar-container">
       <div className="container">
-        <div className="navbar">
+        <nav className="navbar">
           <a href="https://humo.tj/ru/" target="_blank" rel="noopener noreferrer">
             <img className="navbar-logo" src={humoLogo} alt="logo" />
           </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
               +992 (44) 640 55 44
             </a>
           </h2>
-        </div>
+        </nav>
       </div>
     </div>
   );
