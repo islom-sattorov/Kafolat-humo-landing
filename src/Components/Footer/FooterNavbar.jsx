@@ -3,7 +3,7 @@ import footerStyle from "./FooterNavbar.module.css";
 
 const FooterNavbar = () => {
   return (
-    <div className={footerStyle.gray_container}>
+    <nav className={footerStyle.gray_container}>
       <div className="container">
         <ul className={footerStyle.links}>
           <li>
@@ -23,7 +23,7 @@ const FooterNavbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

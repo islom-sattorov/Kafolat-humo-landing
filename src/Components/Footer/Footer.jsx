@@ -7,12 +7,12 @@ import vk from "./vk.svg";
 
 const Footer = () => {
   return (
-    <div className="container">
-      <div className="hot-line">
+    <footer className="container">
+      <section className="hot-line">
         <h1>+992 (44) 640 55 44</h1>
         <p className="footer-description">Горячая линия Хумо</p>
-      </div>
-      <div className="footer-links">
+      </section>
+      <section className="footer-links">
         <div>
           <h1>
             <a href="https://humo.tj/ru/">Хумо</a>
@@ -36,7 +36,7 @@ const Footer = () => {
             <a href="https://transfer.humo.tj/">Хумо переводы</a>
           </h1>
         </div>
-      </div>
+      </section>
       <div className="footer-paragraph">
         <p className="footer-description">
           Прогрессивная и одна из лидирующих микрофинансовых организаций в
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
