@@ -71,6 +71,10 @@
 
 }
 @media(max-width:320px){
+    .protec-container{
+        margin-top: 40px;
+    }
+
     .protec-content h4{
          font-weight: 600;
          font-size: 1.8rem;

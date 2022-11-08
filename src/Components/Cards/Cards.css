@@ -23,11 +23,23 @@
     text-align: center;
 }
 
+.card-title-tablet{
+    display: none;
+}
+
 @media(max-width:768px) {
     .card-container {
         margin-top: 0;
         padding-top: 80px;
         padding-bottom: 0;
+    }
+
+    .card-title-desktop{
+        display: none;
+    }
+
+    .card-title-tablet{
+        display: inline;
     }
 }
 @media (max-width: 425px){
@@ -37,6 +49,6 @@
 }
 @media (max-width: 320px){
     .card-container{
-        padding-top:60px;
+        padding-top:40px;
     }
 }

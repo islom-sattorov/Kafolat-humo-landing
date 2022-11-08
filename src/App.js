@@ -18,7 +18,8 @@ function App() {
       <Header />
       <div className="container">
         <h2 id="Cards" className="card-title">
-          Преимущества депозита <br />«Кафолат ва даромад»
+          <span className="card-title-desktop">Преимущества депозита <br />«Кафолат ва даромад»</span>
+          <span className="card-title-tablet">Преимущества вкладов в Хумо</span>
         </h2>
         <Cards />
         <h2 id="Protection" className="card-title">Мы защищаем ваш депозит</h2>
