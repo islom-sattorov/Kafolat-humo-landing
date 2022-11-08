@@ -17,14 +17,10 @@
     transition: 0.2s all ease;
 }
 
-
 .btn_to_top img {
     width: 12px;
     transform: rotate(-90deg);
 }
-
-
-
 
 @keyframes topScroll {
     0% {
@@ -38,6 +34,11 @@
 
 }
 
+@media (max-width:350px) {
+    .btn_to_top{
+        display: none;
+    }
+}
 
 
 

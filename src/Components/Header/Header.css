@@ -50,13 +50,21 @@
   border: none;
   cursor: pointer;
 }
-.header-promo-block-ellipse{
+/* .header-promo-block-ellipse{
   width: 235px;
   height: 480px;
   position: absolute;
   top:30px;
   right: 0;
+} */
+
+.header-promo-block-ellipse{
+  position: absolute;
+  top: 25px;
+  right: 0;
+  max-width: 500px;
 }
+
 .header-promo-block-persent{
   width: 580px;
   height: 230px;
@@ -78,8 +86,8 @@
     font-size: 1.8rem;
   }
   .header-promo-block-ellipse{
-    width: 210px;
-    height: 460px;
+    top: 40px;
+    max-height: 450px;
   }
   .header-promo-block-persent{
     right: 5px;
@@ -92,8 +100,7 @@
     padding: 120px 320px 160px 40px;
   }
   .header-promo-block-ellipse{
-    width: 180px;
-    height: 420px;
+    max-height: 350px;
   }
   .header-promo-block-persent{
     width: 470px;
@@ -119,7 +126,7 @@
     padding: 350px 100px 50px 100px;
     text-align: center;
   }
-
+  
   .header-promo-block-title {
     font-family: "Montserrat";
     font-style: normal;
@@ -129,7 +136,7 @@
     color: #212121;
     padding-bottom: 8px;
   }
-
+  
   .header-promo-block-subtitle {
     font-family: "Montserrat";
     font-style: normal;
@@ -137,9 +144,9 @@
     font-size: 18px;
     line-height: 130%;
     color: #2d2d2d;
-    padding-bottom: 28px;
+    padding-bottom: 20px;
   }
-
+  
   .header-promo-btn {
     padding: 13px 30px;
     font-family: "Montserrat";
@@ -155,11 +162,12 @@
   .header-promo-block-ellipse{
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    width: 90%;
-    height: 110%;
-    top:-200px;
-    right: 5%;
+    max-height: 500px;
+    max-width: 500px;
+    top: -123px;
+    right: 30%;
   }
+  
   .header-promo-block-persent{
     width:55%;
     height:50%;
@@ -171,6 +179,16 @@
 @media (max-width: 447px){
 .header-promo-block-content{
     padding: 300px 100px 50px 100px;
+    }
+
+    .header-promo-block-ellipse{
+      max-width: 300px;
+      max-height: 450px;
+      right: 25%;
+      /* max-height: 500px; */
+      /* max-width: 500px; */
+      /* top: -123px; */
+      /* right: 30%; */
     }
 }
 
