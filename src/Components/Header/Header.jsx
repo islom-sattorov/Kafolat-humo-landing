@@ -1,32 +1,31 @@
-import React from "react";
-import ellipse from "./Ellipse.svg";
-import percent from "./percent.svg";
+import React from 'react';
 import { Link, spy } from "react-scroll";
-import "./Header.css";
+import ellipse from './Ellipse.svg';
+import style from "./Header.module.css";
+import percent from './percent.svg';
+
 
 const Header = () => {
-  return (
-    <div id="Header" className="header-container">
-      <div className="header-promo-block">
-        <div className="header-promo-block-content">
-          <h1 className="header-promo-block-title">Кафолат ва даромад</h1>
-          <h3 className="header-promo-block-subtitle">
-            Получайте до 17% годовых
-          </h3>
+    return (
+        <header id="Header" className={style.header}>
+            <div className={style.container}>
+                <article className={style.header_container}>
+                    <article className={style.header_text}>
+                        <h2 className={style.header_title}>Кафолат ва даромад</h2>
+                        <p className={style.header_subtitle}>Получайте до 17% годовых</p>
+                        <Link
+                            to="NumberedCard"
+                            spy={spy}
+                            smooth={true}
+                            duration={800}
+                            className={style.header_btn}>Открыть вклад</Link>
+                    </article>
+                    <img src={ellipse} className={style.header_ellipse} alt="ellipse" />
+                    <img src={percent} className={style.header_percent} alt="percent" />
+                </article>
+            </div>
+        </header>
+    )
+}
 
-          <Link
-            activeClass="active"
-            to="NumberedCard2"
-            spy={spy}
-            smooth={true}
-            duration={500}
-            className="header-promo-btn">Открыть вклад</Link>
-          <img src={ellipse} className="header-promo-block-ellipse" alt="ellipse" />
-          <img src={percent} className="header-promo-block-persent" alt="percent" />
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Header;
+export default Header

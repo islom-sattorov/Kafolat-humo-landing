@@ -202,11 +202,6 @@
 }
 
 @media(max-width: 410px){
-    /* .header_ellipse{ */
-        /* border: 1px solid black; */
-    /* } */
-
-
     .header_text{
         justify-content: center;
         align-items: center;
