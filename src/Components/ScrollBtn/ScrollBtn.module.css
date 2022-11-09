@@ -9,7 +9,7 @@
     justify-content: center;
     position: fixed;
     bottom: 30px;
-    left: 8px;
+    right: 45px;
     cursor: pointer;
     animation: topScroll .3s linear;
     transform: translateY(10px);

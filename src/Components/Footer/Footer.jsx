@@ -26,14 +26,13 @@ const Footer = () => {
         </div>
         <div>
           <h1>
-            <a href="https://lahza.humo.tj/">Карта Лахза</a>
+            <a href="https://transfer.humo.tj/">Хумо переводы</a>
           </h1>
-
+          <h1>
+            <a href="https://lahza.humo.tj/">Депозит &mdash; Кафолат ва даромад </a>
+          </h1>
           <h1>
             <a href="https://deposit.humo.tj/">Депозит &mdash; Сарчашма</a>
-          </h1>
-          <h1>
-            <a href="https://transfer.humo.tj/">Хумо переводы</a>
           </h1>
         </div>
       </section>
