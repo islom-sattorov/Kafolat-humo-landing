@@ -10,29 +10,45 @@
     position: fixed;
     bottom: 30px;
     right: 45px;
-    cursor: pointer;
-    animation: topScroll .3s linear;
-    transform: translateY(10px);
+    /* cursor: pointer; */
     z-index: 100;
-    transition: 0.2s all ease;
+    opacity: 0;
+    /* transform: translateY(10px); */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    animation: topScroll .3s linear;
 }
+
 
 .btn_to_top img {
     width: 12px;
     transform: rotate(-90deg);
 }
 
+.btn_to_top.visible{
+    opacity: 1;
+    /* transform: translateY(-5px); */
+}
+
+.btn_to_top.in.visible{
+    opacity: 1;
+    cursor: pointer;
+    /* transform: translateY(-10px); */
+}
+
+
 @keyframes topScroll {
     0% {
         opacity: 0;
-        transform: translateY(0px)
+        /* transform: translateY(0px); */
     }
     100% {
         opacity: 1;
-        transform: translateY(10px);
+        /* transform: translateY(10px); */
     }
-
 }
+
+
+
 
 
 

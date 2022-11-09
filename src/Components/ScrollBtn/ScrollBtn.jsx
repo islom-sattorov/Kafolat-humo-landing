@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import arrow from '../../assets/next_white.svg';
 import style from './ScrollBtn.module.css';
+import useMountTransition from "./useMountTransition";
 
 const ScrollBtn = () => {
     const [visible, setVisible] = useState(false)
+    const hasTransitionedIn = useMountTransition(visible, 1000)
 
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
@@ -21,15 +23,26 @@ const ScrollBtn = () => {
         })
     }
 
-
-    window.addEventListener('scroll', toggleVisible);
+    useEffect(() => {
+        window.addEventListener('scroll', toggleVisible);
+        return () => {
+            window.removeEventListener('scroll', toggleVisible);
+        }
+    }, [])
 
 
     return (
-        <button className={style.btn_to_top} onClick={scrollToTop}
-            style={{ display: visible ? 'inline' : 'none' }}>
-            <img src={arrow} alt='moveToTopBtn' />
-        </button>
+        <>
+            {(hasTransitionedIn || visible) && (
+                <button
+                    className={`${style.btn_to_top} ${hasTransitionedIn && style.in} ${visible && style.visible}`}
+                    onClick={scrollToTop}>
+                    <img src={arrow} alt='moveToTopBtn' />
+                </button>
+            )
+            }
+        </>
     )
 }
 export default ScrollBtn
+
