@@ -81,7 +81,6 @@ const Calculator = () => {
 
   return (
     <div className={`container ${styles.calculatorContainer}`} id="calculate">
-      {/* <h3 className={styles.title}>{`Ваш доход по депозиту «Сарчашма»`}</h3> */}
       <div className={styles.sliderContainer}>
         <div className={styles.calculateBlock}>
           <div className={styles.calculateTitle}>Сумма депозита:</div>
@@ -156,8 +155,7 @@ const Calculator = () => {
           <button>Отправить заявку</button>
         </a>
         <div>
-          * Расчет калькулятора предварительный, выполнен с учетом 12% налога. Более точные условия вы узнаете при оформлении
-          депозита.
+          * Расчет калькулятора предварительный. Более точные условия вы узнаете при оформлении депозита.
         </div>
       </div>
     </div>
