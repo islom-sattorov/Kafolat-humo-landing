@@ -16,6 +16,7 @@
 .calculatorContainer .sliderContainer .calculate{
     margin: 0px 15px 0px 0px;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .calculatorContainer .sliderContainer .calculate input{
@@ -29,28 +30,32 @@
     line-height: 24px;
     grid-column: 1 / 3;
     overflow: hidden;
+    position: relative;
 }
 
 /* Slider */
-.slider {
-    /* padding-right: 40px; */
-    border: 1px solid transparent;
-    overflow: hidden;
+.calculatorContainer .sliderContainer .calculate .slider {
+    border-radius: 10px;
+    height: 9px;
+    margin: -8px 0px 0px 0px;
+    width: 100%;
+    position: absolute !important;
+    /* overflow: hidden; */
 }
 
-.slider > div > span {
+.calculatorContainer .sliderContainer .calculate .slider > div > span {
     display: none !important;
 }
 
-.slider > div > div > div {
+.calculatorContainer .sliderContainer .calculate .slider > div > div > div {
     background: #FF5A1E !important;
+    height: 4px !important;
 }
 
-.slider > div > div > span > div {
+.calculatorContainer .sliderContainer .calculate  .slider > div > div > span > div {
     background: #FFFFFF !important;
     border: 2px solid #FF5A1E !important;
 }
-
 /* Slider */
 
 
@@ -107,7 +112,7 @@
     justify-content: flex-end;
     flex-direction: column;
     margin-right: 50px;
-    padding-bottom: 44px;
+    padding-bottom: 30px;
 }
 
 .totalResultTitle, .realResultTitle, .percentResultTitle{
@@ -121,7 +126,7 @@
     font-size: 36px;
     line-height: 64px;
     color: #212121;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .amountResult .realResultAmount .percent span{
