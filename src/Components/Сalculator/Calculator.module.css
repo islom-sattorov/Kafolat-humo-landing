@@ -28,6 +28,13 @@
     line-height: 24px;
 }
 
+/* .slider span{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* outline: none; */
+    /* overflow: hidden; */
+/* } */
+
 
 .calculatorContainer .sliderContainer .calculateTitle{
     color: #666666;
@@ -225,7 +232,7 @@
     }
 
     .amountResult, .realResultAmount, .percent{
-        font-size: 280%;
+        font-size: 42px;
     }
 
     .amountResult .realResultAmount .percent span{

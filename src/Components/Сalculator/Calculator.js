@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import InputRange from "react-input-range";
-// import "react-input-range/lib/css/index.css";
+import InputRange from "react-input-range";
+import "react-input-range/lib/css/index.css";
 import styles from "./Calculator.module.css";
 
 const Calculator = () => {
@@ -87,7 +87,7 @@ const Calculator = () => {
           <div className={styles.calculate}>
             <input value={value.replace(/\B(?=(\d{3})+(?!\d))/g, " ")} onChange={handleChange} />
             <div className={styles.slider}>
-              {/* <InputRange
+              <InputRange
                 step={50000}
                 formatLabel={(value) => null}
                 draggableTrack={false}
@@ -97,7 +97,7 @@ const Calculator = () => {
                 value={+value}
                 onChange={(val) => handleChangeSlider(val)}
                 onChangeComplete={(args) => console.log(args)}
-              /> */}
+              />
             </div>
           </div>
         </div>
