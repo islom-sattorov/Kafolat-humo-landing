@@ -9,7 +9,7 @@ const Calculator = () => {
 
   const getPercent = () => {
     if (activeCourse === "TJS") {
-      return "16";
+      return "17";
     }
     if (activeCourse === "RUB") {
       return "10";

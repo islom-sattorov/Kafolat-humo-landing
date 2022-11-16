@@ -30,6 +30,8 @@
     grid-column: 1 / 3;
     overflow: hidden;
     position: relative;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Slider */
@@ -60,12 +62,13 @@
 .calculatorContainer .sliderContainer .calculateTitle{
     color: #666666;
     font-size: 16px;
+    font-weight: 500;
     line-height: 28px;
     padding-bottom: 20px;
 }
 
 .calculatorContainer .sliderContainer .courseContainer{
-    padding-left: 0px;
+    padding-left: 0px;;
 }
 
 .calculatorContainer .sliderContainer .courseContainer .courseTitle{
@@ -73,6 +76,7 @@
     font-size: 16px;
     line-height: 28px;
     padding-bottom: 20px;
+    font-weight: 500;
 }
 
 .calculatorContainer .sliderContainer .courseContainer .courses{
@@ -117,6 +121,7 @@
     font-size: 16px;
     line-height: 28px;
     color: #666666;
+    font-weight: 500;
 }
 
 .amountResult, .realResultAmount, .percent{
