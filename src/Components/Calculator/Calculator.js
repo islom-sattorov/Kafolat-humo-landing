@@ -5,7 +5,7 @@ import styles from "./CalculatorTest.module.css";
 
 const Calculator = () => {
   const [activeCourse, setActiveCourse] = useState("TJS");
-  const [value, setValue] = useState("50000");
+  const [value, setValue] = useState("2000");
 
   const getPercent = () => {
     if (activeCourse === "TJS") {
