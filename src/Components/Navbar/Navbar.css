@@ -1,8 +1,8 @@
 .navbar-container {
-  margin: 0px auto;
+  margin: 0 auto;
   background: #f5f6f7;
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 1;
 }
 
@@ -22,12 +22,12 @@
 }
 .navbar-links > li {
   display: flex;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 .navbar-links>li>a {
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
@@ -42,7 +42,7 @@
 
 .tel-number {
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
@@ -59,7 +59,7 @@
 @media (max-width: 768px) {
   .navbar-logo {
     width: 120px;
-    height: 38.95px;
+    height: 39px;
   }
 
   .tel-number a {

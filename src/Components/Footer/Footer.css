@@ -1,6 +1,6 @@
 .hot-line > h1 {
   padding-top: 40px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
@@ -9,7 +9,7 @@
 }
 
 .footer-description {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -18,7 +18,7 @@
 }
 
 .footer-links {
-  padding: 48px 0px;
+  padding: 48px 0;
   max-width: 800px;
   max-height: 300px;
   display: grid;
@@ -26,7 +26,7 @@
   grid-template-columns: repeat(2, auto);
 }
 .footer-links > div > h1 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
@@ -53,7 +53,7 @@
 
 .adress {
   padding-bottom: 40px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -62,7 +62,7 @@
 }
 
 .license {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.7rem;
@@ -107,11 +107,10 @@
     font-size: 1.9rem;
     font-weight: 500;
     line-height: 130%;
-    font-weight: 500;
-    padding: 4px 0px 4px 0px;
+    padding: 4px 0 4px 0;
   }
   .footer-links {
-    margin: 15px 0px;
+    margin: 15px 0;
     max-width: 800px;
     max-height: 300px;
   }
@@ -141,7 +140,7 @@
     justify-content: space-between;
     align-items: flex-start;
     /* margin-bottom: 50px; */
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .sn-links {
@@ -166,7 +165,7 @@
   }
 
   .footer-links {
-    padding: 0px 0px;
+    padding: 0 0;
     max-width: 462px;
     max-height: 100px;
   }

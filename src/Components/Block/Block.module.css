@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
   .block_container {
-    gap: 0px;
+    gap: 0;
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(1, auto);
@@ -80,7 +80,7 @@
   }
   .block_container > .text_container > h2 {
     text-align: center;
-    padding: 50px 50px 0px 50px;
+    padding: 50px 50px 0 50px;
     font-size: 3.2rem;
   }
   .block_btns {
@@ -94,7 +94,7 @@
   .block_container > .phone {
     justify-self: center;
     margin: 0;
-    gap: 0px;
+    gap: 0;
   }
 }
 
@@ -130,7 +130,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 
 .block_btn_btn{
@@ -178,7 +178,7 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: 0;
-        padding: 24px 0px;
+        padding: 24px 0;
     }
 
     .block_btn_btn{

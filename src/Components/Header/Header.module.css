@@ -5,7 +5,7 @@
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0px 15px;
+    padding: 0 15px;
     transition: 0.2s all;
   }
 
@@ -57,7 +57,7 @@
 
 .header_ellipse{
     top: 20px;
-    right: 0px;
+    right: 0;
     max-width: 500px;
     transition: 0.3s all;
     padding: 0;
@@ -108,7 +108,7 @@
 
 @media(max-width: 780px){
     .header_container{
-        border-radius: 0px;
+        border-radius: 0;
     }
     
     .header_ellipse{
@@ -136,7 +136,7 @@
     .header_container{
         max-width: 768px;
         max-height: 520px;
-        padding: 323px 0px 40px 0px;
+        padding: 323px 0 40px 0;
     }
 
     .header_text{
@@ -193,7 +193,7 @@
 @media(max-width: 470px){
     .header_container{
         max-height: 400px;
-        padding: 200px 0px 40px 0px;
+        padding: 200px 0 40px 0;
     }
     
     .header_ellipse{
@@ -233,7 +233,7 @@
     }
 
     .header_percent{
-        top: 0px;
+        top: 0;
     }
 }
 

@@ -39,7 +39,7 @@
         height: 150px;
     }
     .protec-content p{
-        margin-top: 0px;
+        margin-top: 0;
         font-weight: 400;
         font-size: 1.6rem;
         line-height: 20px;
@@ -64,8 +64,7 @@
         padding: 16px;
     }
     .protec-image img{
-        margin: 0;
-        margin-top: 16px;
+        margin: 16px 0 0 0;
     }
     .protec-content{
         padding: 0;

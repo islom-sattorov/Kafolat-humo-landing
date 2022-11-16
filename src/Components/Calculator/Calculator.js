@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import InputRange from "react-input-range";
 import "react-input-range/lib/css/index.css";
-import styles from "./Calculator.module.css";
+import styles from "./CalculatorTest.module.css";
 
 const Calculator = () => {
   const [activeCourse, setActiveCourse] = useState("TJS");
@@ -89,7 +89,7 @@ const Calculator = () => {
             <div className={styles.slider}>
               <InputRange
                 step={50000}
-                formatLabel={(value) => null}
+                formatLabel={() => null}
                 draggableTrack={false}
                 allowSameValues={false}
                 maxValue={2000000}
@@ -107,21 +107,21 @@ const Calculator = () => {
             <div
               className={activeCourse === "TJS" ? styles.courseActive : styles.course}
               name="TJS"
-              onClick={(e) => setActiveCourse("TJS")}
+              onClick={() => setActiveCourse("TJS")}
             >
               TJS
             </div>
             <div
               className={activeCourse === "RUB" ? styles.courseActive : styles.course}
               name="RUB"
-              onClick={(e) => setActiveCourse("RUB")}
+              onClick={() => setActiveCourse("RUB")}
             >
               RUB
             </div>
             <div
               className={activeCourse === "USD" ? styles.courseActive : styles.course}
               name="USD"
-              onClick={(e) => setActiveCourse("USD")}
+              onClick={() => setActiveCourse("USD")}
             >
               USD
             </div>
