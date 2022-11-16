@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import Block from "./Components/Block/Block";
+import Calculator from './Components/Calculator/Calculator';
 import Cards from "./Components/Cards/Cards";
 import Footer from "./Components/Footer/Footer";
 import FooterNavbar from "./Components/Footer/FooterNavbar";
-import Header from "./Components/Header/Header";
+import Header from './Components/Header/Header';
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
 import Protection from "./Components/Protection/Protecton";
 import ScrollBtn from "./Components/ScrollBtn/ScrollBtn";
-import Calculator from "./Components/Сalculator/Calculator";
 
 function App() {
   return (

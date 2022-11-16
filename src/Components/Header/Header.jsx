@@ -19,7 +19,7 @@ const Header = () => {
                     </article>
                     {/* <img src={ellipse} className={style.header_ellipse} alt="ellipse" /> */}
                     {/* <img src={percent} className={style.header_percent} alt="percent" /> */}
-                    <svg className={style.header_ellipse} width="250" height="500" viewBox="0 0 250 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className={style.header_ellipse} width="250" height="380" viewBox="0 0 250 500" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_b_416_2616)">
                             <circle cx="250" cy="250" r="250" fill="url(#paint0_linear_416_2616)" fillOpacity="0.4" />
                         </g>

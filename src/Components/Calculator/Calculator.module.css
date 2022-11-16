@@ -20,6 +20,7 @@
 
 .calculatorContainer .sliderContainer .calculate input{
     width: 100%;
+    max-width: 250px;
     border: none;
     outline: none;
     padding: 22px 16px;
@@ -36,10 +37,11 @@
 
 /* Slider */
 .calculatorContainer .sliderContainer .calculate .slider {
+    width: 100%;
+    max-width: 250px;
     border-radius: 10px;
     height: 9px;
     margin: -8px 0px 0px 0px;
-    width: 100%;
     position: absolute !important;
     padding-right: 4px;
 }
@@ -280,6 +282,18 @@
         font-size: 16px;
     }
 }
+
+
+@media(min-width: 371px){
+    .calculatorContainer .sliderContainer .calculate .slider{
+        max-width: none;
+    }
+
+    .calculatorContainer .sliderContainer .calculate input{
+        max-width: none;
+    }
+}
+
 
 @media(max-width: 370px){
     .calculatorContainer .sliderContainer .calculate{
