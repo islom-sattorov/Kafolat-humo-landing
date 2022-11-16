@@ -22,25 +22,25 @@ function App() {
           <span className="card-title-tablet">Преимущества вкладов в Хумо</span>
         </h2>
         <Cards />
-        <h2 id="Protection" className="card-title">Мы защищаем ваш депозит</h2>
-        <Protection />
         <h2 id="Calculator" className="card-title">Ваш доход по депозиту</h2>
         <Calculator />
+        <h2 id="Protection" className="card-title">Мы защищаем ваш депозит</h2>
+        <Protection />
         <h2 id="NumberedCard" className="card-title">
           Открыть вклад легко
         </h2>
         <section className="card-items">
           <NumberedCard
             num={1}
-            titleSecond="Заполните онлайн-заявку и посетите банк"
+            titleSecond="Посетите любой филиал Хумо, для получения консультации"
           />
           <NumberedCard
             num={2}
-            titleSecond="Заполните онлайн-заявку и посетите банк"
+            titleSecond="Предоставьте паспорт РТ, ИНН, а также заявление на открытие счета"
           />
           <NumberedCard
             num={3}
-            titleSecond="Заполните онлайн-заявку и посетите банк"
+            titleSecond="Внесите первый вклад в филиале или в Хумо Онлайн"
           />
         </section>
         <Block />
