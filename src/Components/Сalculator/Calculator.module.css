@@ -41,6 +41,7 @@
     width: 100%;
     position: absolute !important;
     /* overflow: hidden; */
+    padding-right: 4px;
 }
 
 .calculatorContainer .sliderContainer .calculate .slider > div > span {
@@ -49,8 +50,7 @@
 
 .calculatorContainer .sliderContainer .calculate .slider > div > div > div {
     background: #FF5A1E !important;
-    height: 4px !important;
-}
+    height: 4px !important;}
 
 .calculatorContainer .sliderContainer .calculate  .slider > div > div > span > div {
     background: #FFFFFF !important;
