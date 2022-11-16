@@ -84,7 +84,6 @@
 .calculatorContainer .sliderContainer .courseContainer .courses{
     display: flex;
     gap: 10px;
-    border: 1px solid blue;
 }
 
 .calculatorContainer .sliderContainer .courseContainer .courses .course{
@@ -111,7 +110,6 @@
     display: flex;
     gap: 60px;
     padding: 0 100px 60px 100px;
-    border: 1px solid red;
 }
 
 .calculatorContainer .calculateResult .totalResult, .realResult, .percentResult{
@@ -127,7 +125,6 @@
     color: #777777;
     font-weight: 500;
     width: max-content;
-    border: 1px solid green;
 }
 
 .amountResult, .realResultAmount, .percent{
@@ -262,6 +259,10 @@
         align-items: center;
     }
 
+    .calculatorContainer .calculateBtn button{
+        font-size: 14px;
+    }
+
     .calculatorContainer .calculateBtn div{
         text-align: center;
     }
@@ -281,7 +282,9 @@
 }
 
 @media(max-width: 415px){
-
+    .calculatorContainer{
+        max-height: 1020px;
+    }
     .calculatorContainer .sliderContainer{
         display: block;
     }
@@ -290,19 +293,47 @@
         margin-top: 20px;
     }
 
+    .calculatorContainer .sliderContainer .courseContainer .courses .course{
+        width: 100%;
+        min-width: 10px;
+        padding: 12px 10px;
+        text-align: center;
+    }
 
-    /*.calculatorContainer .sliderContainer .calculate input{*/
-    /*    width: 100%;*/
-    /*    margin: 0 20px;*/
+    .calculatorContainer .sliderContainer .courseContainer .courses .courseActive {
+        width: 100%;
+        min-width: 10px;
+        padding: 12px 10px;
+        text-align: center;
+    }
+
+
+
+    /*.calculatorContainer .calculateBtn button{*/
+    /*    font-size: 12px;*/
+    /*    width: 120%;*/
+    /*    !*margin: 0 10px;*!*/
+    /*    margin-left: 0;*/
     /*}*/
 
-    /*.calculatorContainer .sliderContainer .calculate .slider {*/
-    /*    width: initial;*/
-    /*    border-radius: 10px;*/
-    /*    height: 9px;*/
-    /*    margin: -8px 0 0 0;*/
-    /*    position: absolute !important;*/
-    /*    padding-right: 4px;*/
+    /*.calculatorContainer .calculateBtn a{*/
+    /*    margin: 0 10px;*/
+    /*    width: 90%;*/
     /*}*/
+
+
+
+}
+
+@media(max-width: 300px){
+    .calculatorContainer .calculateBtn{
+        justify-content: stretch;
+        align-items: stretch;
+    }
+
+    .calculatorContainer .calculateBtn button{
+        width: 100%;
+        padding: 14px 32px;
+    }
 
 }
