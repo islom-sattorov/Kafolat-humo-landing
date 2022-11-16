@@ -24,7 +24,7 @@ function App() {
         <Cards />
         <h2 id="Protection" className="card-title">Мы защищаем ваш депозит</h2>
         <Protection />
-        <h2 className="card-title">Ваш доход по депозиту</h2>
+        <h2 id="Calculator" className="card-title">Ваш доход по депозиту</h2>
         <Calculator />
         <h2 id="NumberedCard" className="card-title">
           Открыть вклад легко
