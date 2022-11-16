@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import InputRange from "react-input-range";
 import "react-input-range/lib/css/index.css";
-import styles from "./Calculator.module.scss";
+import styles from "./Calculator.module.css";
 
 const Calculator = () => {
   const [activeCourse, setActiveCourse] = useState("TJS");
@@ -81,7 +81,6 @@ const Calculator = () => {
 
   return (
     <div className={`container ${styles.calculatorContainer}`} id="calculate">
-      <h3 className={styles.title}>{`Ваш доход по депозиту «Сарчашма»`}</h3>
       <div className={styles.sliderContainer}>
         <div className={styles.calculateBlock}>
           <div className={styles.calculateTitle}>Сумма депозита:</div>
@@ -153,11 +152,10 @@ const Calculator = () => {
       </div>
       <div className={styles.calculateBtn}>
         <a href="tel:544">
-          <button>Связаться</button>
+          <button>Отправить заявку</button>
         </a>
         <div>
-          * Расчет калькулятора предварительный, выполнен с учетом 12% налога. Более точные условия вы узнаете при оформлении
-          депозита.
+          * Расчет калькулятора предварительный. Более точные условия вы узнаете при оформлении депозита.
         </div>
       </div>
     </div>

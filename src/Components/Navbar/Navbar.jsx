@@ -25,7 +25,11 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                activeClass="active"
                 to="Calculator"
+                spy={spy}
+                smooth={true}
+                duration={500}
                 className="nav-link" href="#top">
                 Калькулятор
               </Link>

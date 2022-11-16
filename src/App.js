@@ -9,7 +9,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
 import Protection from "./Components/Protection/Protecton";
 import ScrollBtn from "./Components/ScrollBtn/ScrollBtn";
-// import Calculator from "./Components/Сalculator/Calculator";
+import Calculator from "./Components/Сalculator/Calculator";
 
 function App() {
   return (
@@ -24,8 +24,8 @@ function App() {
         <Cards />
         <h2 id="Protection" className="card-title">Мы защищаем ваш депозит</h2>
         <Protection />
-        {/* <h2 className="card-title">Калькулятор</h2>
-        <CalculatorTest /> */}
+        <h2 id="Calculator" className="card-title">Ваш доход по депозиту</h2>
+        <Calculator />
         <h2 id="NumberedCard" className="card-title">
           Открыть вклад легко
         </h2>
