@@ -1,13 +1,14 @@
 import React from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Logo from "./logo_idif 2.png";
 import './Protecton.css';
-export default function Protection() {
 
+export default function Protection() {
     return (
         <div className="container">
             <section className="protec-container">
                 <article className="protec-image">
-                    <img src={Logo} alt="Logo" />
+                    <LazyLoadImage src={Logo} alt="Logo" />
                 </article>
                 <article className="protec-content">
                     <h4>Хумо - член Фонда страхования сбережений физических лиц</h4>
