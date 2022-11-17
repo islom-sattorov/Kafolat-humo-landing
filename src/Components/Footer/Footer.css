@@ -25,7 +25,6 @@
   grid-template-columns: repeat(2, auto);
   justify-content: flex-start;
   gap: 40px;
-  border: 1px solid red;
 }
 .footer-links > div > h1 {
   font-family: "Montserrat", sans-serif;
