@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import InputRange from "react-input-range";
 import "react-input-range/lib/css/index.css";
-import styles from "./CalculatorTest.module.css";
+import styles from "./Calculator.module.css";
 
 const Calculator = () => {
   const [activeCourse, setActiveCourse] = useState("TJS");
@@ -11,11 +11,8 @@ const Calculator = () => {
     if (activeCourse === "TJS") {
       return "17";
     }
-    if (activeCourse === "RUB") {
-      return "10";
-    }
     if (activeCourse === "USD") {
-      return "5";
+      return "4";
     }
   };
 
@@ -78,7 +75,6 @@ const Calculator = () => {
       setValue(val);
     }
   };
-
   return (
     <div className={`container ${styles.calculatorContainer}`} id="calculate">
       <div className={styles.sliderContainer}>
@@ -110,13 +106,6 @@ const Calculator = () => {
               onClick={() => setActiveCourse("TJS")}
             >
               TJS
-            </div>
-            <div
-              className={activeCourse === "RUB" ? styles.courseActive : styles.course}
-              name="RUB"
-              onClick={() => setActiveCourse("RUB")}
-            >
-              RUB
             </div>
             <div
               className={activeCourse === "USD" ? styles.courseActive : styles.course}

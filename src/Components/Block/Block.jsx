@@ -8,7 +8,6 @@ import phone from './img.svg'
 
 const Block = () => {
     return (
-        // <section className={style.margin_container}>
         <div className={style.block_container}>
             <article className={style.text_container}>
                 <h2>Установите <span>Хумо Онлайн,</span> чтобы управлять своим депозитом</h2>
@@ -26,7 +25,6 @@ const Block = () => {
             </article>
             <LazyLoadImage className={style.phone} src={phone} alt='phone' />
         </div>
-        // </section>
     )
 }
 
