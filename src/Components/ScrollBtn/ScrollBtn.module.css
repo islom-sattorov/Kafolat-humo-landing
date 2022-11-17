@@ -1,6 +1,7 @@
 .btn_to_top{
-    width: 65px;
-    height: 65px;
+    /*width: 65px;*/
+    /*height: 65px;*/
+    padding: 22px;
     background-color: #FF6600;
     border-radius: 50%;
     border: none;
@@ -8,8 +9,8 @@
     align-items: center;
     justify-content: center;
     position: fixed;
-    bottom: 30px;
-    left: 20px;
+    bottom: 20px;
+    left: 10px;
     z-index: 100;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
