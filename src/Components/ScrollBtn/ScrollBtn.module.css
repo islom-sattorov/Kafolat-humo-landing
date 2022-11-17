@@ -21,6 +21,7 @@
 .btn_to_top .arrow {
     width: 12px;
     transform: rotate(-90deg);
+    border: 1px solid blue;
 }
 
 .btn_to_top.visible{
@@ -41,6 +42,12 @@
         opacity: 1;
     }
 }
+
+/*@media(max-width: 380px){*/
+/*    .btn_to_top{*/
+/*        margin: 100px 0;*/
+/*    }*/
+/*}*/
 
 
 

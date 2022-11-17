@@ -227,9 +227,9 @@
 @media(max-width: 370px){
     .header_ellipse{
         max-width: 150px;
-        max-height: 380px;
+        max-height: 280px;
         right: 25%;
-        top: -120px;
+        top: -100px;
     }
 
     .header_percent{
