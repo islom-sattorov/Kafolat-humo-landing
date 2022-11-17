@@ -282,9 +282,9 @@
     }
 
     .header_ellipse{
-        right: 17%;
+        right: 12%;
         max-width: 200px;
-        max-height: 250px;
+        max-height: 220px;
         top: -50px;
         margin: 0;
     }

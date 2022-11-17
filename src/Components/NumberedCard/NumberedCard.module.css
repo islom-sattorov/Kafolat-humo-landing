@@ -99,3 +99,10 @@
     }
 
 }
+
+@media(max-width: 280px){
+    .num{
+        left: 41%;
+    }
+
+}
