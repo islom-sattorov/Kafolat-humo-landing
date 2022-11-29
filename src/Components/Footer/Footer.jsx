@@ -9,31 +9,35 @@ const Footer = () => {
   return (
     <footer className="container">
       <section className="hot-line">
-        <h1>+992 (44) 640 55 44</h1>
+        <h2>
+          <a className="tel-number" href="tel:+992(44)6405544">
+            +992 (44) 640 55 44
+          </a>
+        </h2>
         <p className="footer-description">Горячая линия Хумо</p>
       </section>
       <section className="footer-links">
         <div>
-          <h1>
+          <h2>
             <a href="https://humo.tj/ru/">Хумо</a>
-          </h1>
-          <h1>
+          </h2>
+          <h2>
             <a href="https://online.humo.tj/">Хумо Онлайн</a>
-          </h1>
-          <h1>
+          </h2>
+          <h2>
             <a href="https://orzu.humo.tj/">Карта Орзу</a>
-          </h1>
+          </h2>
         </div>
         <div>
-          <h1>
+          <h2>
             <a href="https://transfer.humo.tj/">Хумо переводы</a>
-          </h1>
-          <h1>
+          </h2>
+          <h2>
             <a href="https://lahza.humo.tj/">Депозит &mdash; Кафолат ва даромад </a>
-          </h1>
-          <h1>
+          </h2>
+          <h2>
             <a href="https://deposit.humo.tj/">Депозит &mdash; Сарчашма</a>
-          </h1>
+          </h2>
         </div>
       </section>
       <div className="footer-paragraph">

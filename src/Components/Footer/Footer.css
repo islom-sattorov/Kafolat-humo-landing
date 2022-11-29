@@ -1,4 +1,8 @@
-.hot-line > h1 {
+.footer{
+  margin-inline: 10px;
+}
+
+.hot-line > h2 {
   padding-top: 40px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -26,7 +30,7 @@
   justify-content: flex-start;
   gap: 40px;
 }
-.footer-links > div > h1 {
+.footer-links > div > h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -36,9 +40,14 @@
   padding: 5px;
 }
 
-.footer-links > div > h1 > a {
+.footer-links > div > h2 > a {
   text-decoration: none;
   color: #2d2d2d;
+  transition: 0.2s all;
+}
+
+.footer-links > div > h2 > a:hover{
+  color: #ff5a1e;
 }
 
 .footer-paragraph {
@@ -104,7 +113,7 @@
 }
 
 @media (max-width: 768px) {
-  .footer-links > div > h1 {
+  .footer-links > div > h2 {
     font-size: 1.9rem;
     font-weight: 500;
     line-height: 130%;
@@ -127,7 +136,7 @@
     color: #777777;
   }
 
-  .hot-line > h1 {
+  .hot-line > h2 {
     font-size: 2rem;
   }
   .hot-line > p {
@@ -141,7 +150,7 @@
     justify-content: space-between;
     align-items: flex-start;
     /* margin-bottom: 50px; */
-    margin-bottom: 0;
+    margin-bottom: 24px;
   }
 
   .sn-links {
@@ -194,10 +203,10 @@
     justify-content: space-around;
     gap: 20px;
   }
-  .hot-line > h1{
+  .hot-line > h2{
     font-size: 18px;
   }
-  .footer-links > div > h1 > a {
+  .footer-links > div > h2 > a {
     font-size: 18px;
   }
   .footer-description{
@@ -205,7 +214,7 @@
   }
   .footer-scial-networks{
     flex-direction: column;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
   .sn-links{
     flex-direction: column;

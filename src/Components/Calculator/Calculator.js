@@ -122,7 +122,7 @@ const Calculator = () => {
           <div className={styles.totalResultTitle}>За 12 месяцев накопится:</div>
           <div className={styles.amountResult}>
             {getResult().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
-            <span>{activeCourse}</span>
+            <span>{` ${activeCourse}`}</span>
           </div>
         </div>
         <div className={styles.realResult}>
@@ -131,7 +131,7 @@ const Calculator = () => {
             {getTotalAmount()
               .toFixed(1)
               .replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
-            <span>{activeCourse}</span>
+            <span>{` ${activeCourse}`}</span>
           </div>
         </div>
         <div className={styles.percentResult}>

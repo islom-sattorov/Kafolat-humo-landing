@@ -42,7 +42,7 @@
     /*max-width: 250px;*/
     border-radius: 10px;
     height: 9px;
-    margin: -8px 0 0 0;
+    margin: -5px 0 0 0;
     position: absolute !important;
     padding-right: 4px;
 }
@@ -53,7 +53,8 @@
 
 .calculatorContainer .sliderContainer .calculate .slider > div > div > div {
     background: #FF5A1E !important;
-    height: 4px !important;}
+    height: 3px !important;
+}
 
 .calculatorContainer .sliderContainer .calculate  .slider > div > div > span > div {
     background: #FFFFFF !important;
@@ -107,9 +108,11 @@
 }
 
 .calculatorContainer .calculateResult{
+    border: 2px solid red;
     display: flex;
-    gap: 60px;
-    padding: 0 100px 60px 100px;
+    gap: 20px;
+    /* padding: 0 100px 60px 100px; */
+    padding: 0 0 60px 100px;
 }
 
 .calculatorContainer .calculateResult .totalResult, .realResult, .percentResult{
@@ -117,6 +120,7 @@
     justify-content: flex-end;
     flex-direction: column;
     margin-right: 20px;
+    border: 2px solid green;
 }
 
 .totalResultTitle, .realResultTitle, .percentResultTitle{
@@ -137,35 +141,36 @@
 }
 
 /*.amountResult .realResultAmount .percent span{*/
-/*    font-size: 36px;*/
-/*    border: 1px solid blue;*/
-/*}*/
-
-.calculatorContainer .calculateBtn{
-    padding: 0 0 56px 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.calculatorContainer .calculateBtn button{
-    border: none;
-    cursor: pointer;
-    border-radius: 100px;
-    padding: 20px 48px;
-    background: #ff5a1e;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-}
-
-/*.calculatorContainer .calculateBtn a{*/
-/*    text-decoration: none;*/
-/*    color: #ffffff;*/
-/*}*/
-
-.calculatorContainer .calculateBtn div{
+    /*    font-size: 36px;*/
+    /*    border: 1px solid blue;*/
+    /*}*/
+    
+    .calculatorContainer .calculateBtn{
+        padding: 0 0 56px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .calculatorContainer .calculateBtn button{
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        border-radius: 100px;
+        padding: 20px 48px;
+        background: #ff5a1e;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        border: none;   
+    }
+    
+    /*.calculatorContainer .calculateBtn a{*/
+        /*    text-decoration: none;*/
+        /*    color: #ffffff;*/
+        /*}*/
+        
+        .calculatorContainer .calculateBtn div{
     padding: 34px 0 0 0;
     font-weight: 400;
     color: #b0b1b5;
