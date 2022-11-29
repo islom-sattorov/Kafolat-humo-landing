@@ -2,14 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 70px 15px 0 15px;
-  border: 1px solid blue;
   margin: 0 0 120px 0;
   /* margin: 0 0 20px 0; */
   gap: 15px;
 }
 
 .card-title {
-  border: 1px solid red;
   font-weight: 700;
   font-size: 4.8rem;
   color: #2d2d2d;
