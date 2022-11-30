@@ -120,7 +120,7 @@
         right:-15px;
     }
 }
-
+/* 
 @media(max-width: 780px){
     .header_ellipse{
         max-width: 160px;
@@ -130,7 +130,7 @@
         width: 360px;
         height: 90px;
     }
-}
+} */
 
 
 @media(max-width: 768px){
@@ -170,17 +170,18 @@
         font-size: 18px;
         margin-top: 24px;
         min-width: 206px;
-        min-height: 50px;
+        /* min-height: 50px; */
+        padding: 10px 32px;
     }
 
     .header_ellipse{
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
-        max-height: 500px;
-        max-width: 500px;
+        /* max-height: 500px; */
+        /* max-width: 500px; */
         width: 50%;
-        top: -123px;
-        right: 24%;
+        top: -70px;
+        right: 25%;
         margin: auto;
     }
 
@@ -204,14 +205,15 @@
 
 @media(max-width: 470px){
     .header_container{
-        max-height: 400px;
-        padding: 200px 0 40px 0;
+        /* max-height: 600px; */
+        /* height: 460px; */
+        padding: 240px 0 40px 0;
     }
     
     .header_ellipse{
         width: 180px;
         right: 27%;
-        top: -160px;
+        top: -140px;
     }
 
     .header_percent{
@@ -226,6 +228,12 @@
         min-width: 150px;
     }
 
+    .header_ellipse{
+        width: 150px;
+        right: 30%;
+        height: 300px;
+    }
+
     .header_title{
         font-size: 24px;
     }
@@ -238,14 +246,16 @@
 
 @media(max-width: 370px){
     .header_ellipse{
-        max-width: 150px;
-        max-height: 280px;
-        right: 25%;
+        /* max-width: 150px; */
+        /* max-height: 280px; */
+        height: 300px;
+        width: 200px;
+        right: 21%;
         top: -100px;
     }
 
     .header_percent{
-        top: 0;
+        top: 30px;
     }
 }
 
@@ -255,7 +265,6 @@
     }
 
     .header_container{
-        min-width: 270px;
         border-radius: 16px;
     }
 
@@ -264,11 +273,14 @@
     }
 
     .header_ellipse{
-        max-width: 140px;
-        top: -119px;
+        width: 200px;
+        height: 280px;
+        top: -50px;
         /* overflow: hidden; */
         border-radius: 15px;
-        right: 70px;
+        /* right: 10%; */
+        left: 0;
+        right: 0px;
     }
 
     .header_percent{
@@ -292,10 +304,12 @@
     }
 
     .header_ellipse{
-        right: 12%;
-        max-width: 200px;
-        max-height: 220px;
+        right: 0px;
+        width: 120px;
+        height: 200px;
+        /* max-width: 200px; */
+        /* max-height: 220px; */
         top: -50px;
-        margin: 0;
+        /* margin: 0; */
     }
 }
