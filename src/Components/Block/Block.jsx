@@ -23,7 +23,7 @@ const Block = () => {
                     </a>
                 </article>
             </article>
-            <LazyLoadImage className={style.phone} src={phone} alt='phone' />
+            <img className={style.phone} src={phone} alt='phone' />
         </div>
     )
 }
