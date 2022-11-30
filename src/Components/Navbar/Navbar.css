@@ -69,12 +69,6 @@
 }
 
 @media (max-width: 320px) {
-  /*
-   .navbar-container {
-   height: 70px;
-  } 
-  */
-  
   .navbar-logo{
     max-width: 80px;
     max-height: 26px;

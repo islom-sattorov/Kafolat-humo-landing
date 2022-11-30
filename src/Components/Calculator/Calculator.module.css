@@ -39,7 +39,6 @@
 /* Slider */
 .calculatorContainer .sliderContainer .calculate .slider {
     width: 100%;
-    /*max-width: 250px;*/
     border-radius: 10px;
     height: 9px;
     margin: -5px 0 0 0;
@@ -108,11 +107,9 @@
 }
 
 .calculatorContainer .calculateResult{
-    /* border: 2px solid red; */
     display: flex;
     gap: 20px;
     padding: 0 100px 60px 100px;
-    /* padding: 0 0 60px 100px; */
 }
 
 .calculatorContainer .calculateResult .totalResult, .realResult, .percentResult{
@@ -120,7 +117,6 @@
     justify-content: flex-end;
     flex-direction: column;
     margin-right: 20px;
-    /* border: 2px solid green; */
 }
 
 .totalResultTitle, .realResultTitle, .percentResultTitle{
@@ -129,24 +125,16 @@
     color: #777777;
     font-weight: 500;
     width: max-content;
-    /* border: 2px solid blue; */
 }
 
 .amountResult, .realResultAmount, .percent{
     font-weight: 500;
     font-size: 42px;
-    /* line-height: 64px; */
     color: #212121;
     margin-top: 5px;
     width: max-content;
-    /* border: 2px solid gold; */
 }
 
-/*.amountResult .realResultAmount .percent span{*/
-    /*    font-size: 36px;*/
-    /*    border: 1px solid blue;*/
-    /*}*/
-    
     .calculatorContainer .calculateBtn{
         padding: 0 0 56px 100px;
         display: flex;
@@ -167,10 +155,6 @@
         border: none;   
     }
     
-    /*.calculatorContainer .calculateBtn a{*/
-        /*    text-decoration: none;*/
-        /*    color: #ffffff;*/
-        /*}*/
         
     .calculatorContainer .calculateBtn div{
     padding: 34px 0 0 0;
@@ -193,11 +177,6 @@
     }
 }
 
-/* @media(max-width: 920px){
-    .calculatorContainer .calculateResult{
-        gap: 40px;
-    }
-} */
 
 @media(max-width: 880px){
     .calculatorContainer .sliderContainer{
@@ -226,10 +205,6 @@
     .calculatorContainer{
         max-height: 700px;
     }
-    /* .calculatorContainer .calculateResult{
-        justify-content: space-between;
-        gap: 0;
-    } */
 
     .calculatorContainer .calculateResult{
         flex-direction: column;
@@ -260,8 +235,6 @@
     }
 
     .totalResultTitle, .realResultTitle, .percentResultTitle{
-        /*width: 212px;*/
-        /*max-width: 300px;*/
         height: 21px;
     }
 
@@ -341,7 +314,6 @@
     .calculatorContainer .calculateBtn button{
         width: 100%;
         padding: 14px 32px;
-        
     }
 }
 

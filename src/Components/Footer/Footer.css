@@ -160,9 +160,6 @@
     flex-direction: column;
     font-size: 1.6rem;
   }
-  /* .sn-links > .footer-description {
-    padding-top: 28px;
-  } */
 
   .sn-logos {
     padding-top: 16px;
@@ -214,7 +211,6 @@
   }
   .footer-scial-networks{
     flex-direction: column;
-    /* padding-bottom: 60px; */
   }
   .sn-links{
     flex-direction: column;
@@ -223,7 +219,4 @@
     justify-content: space-between;
     padding-top: 0;
   }
-  /* .sn-logos{
-    margin-top: 20px;
-  } */
 }
