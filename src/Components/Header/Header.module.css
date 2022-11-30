@@ -291,8 +291,10 @@
 
 @media(max-width: 270px){
     .header_container{
-        border-radius: 0;
         min-width: 200px;
+        border-radius: 20px;
+        padding: 200px 0 40px;
+        text-align: center;
     }
     
     .header_text{

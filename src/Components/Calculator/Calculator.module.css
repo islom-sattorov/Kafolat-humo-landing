@@ -253,6 +253,7 @@
 
     .amountResult, .realResultAmount, .percent{
         font-size: 36px;
+        border: 1px solid red;
     }
 
     .calculatorContainer .sliderContainer .courseContainer {
@@ -278,9 +279,9 @@
         justify-content: center;
         align-items: center;
     }
-
+    
     .calculatorContainer .calculateBtn button{
-        font-size: 14px;
+        font-size: 14px;       
     }
 
     .calculatorContainer .calculateBtn div{
@@ -334,9 +335,19 @@
         align-items: stretch;
     }
 
+    .amountResult, .realResultAmount, .percent{
+        font-size: 28px;
+    }
+
     .calculatorContainer .calculateBtn button{
         width: 100%;
         padding: 14px 32px;
+        
     }
+}
 
+@media(max-width: 250px){
+    .amountResult, .realResultAmount, .percent{
+        font-size: 22px;
+    }
 }
