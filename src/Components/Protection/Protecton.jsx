@@ -5,7 +5,6 @@ import './Protecton.css';
 
 export default function Protection() {
     return (
-        // <div className="container">
         <section className="protec-container">
             <article className="protec-image">
                 <LazyLoadImage src={Logo} alt="Logo" />
@@ -17,6 +16,5 @@ export default function Protection() {
                     Более подробная информация на сайте <a className="protec-link" target='_blank' rel="noopener noreferrer" href="http://idif.tj/">www.idif.tj</a></p>
             </article>
         </section>
-        // </div>
     );
 }
