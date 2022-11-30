@@ -1,5 +1,4 @@
 import React from "react";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link, spy } from 'react-scroll';
 import humoLogo from "./main-logo.svg";
 import "./Navbar.css";
@@ -10,7 +9,7 @@ const Navbar = () => {
       <div className="container">
         <nav className="navbar">
           <a href="https://humo.tj/ru/" target="_blank" rel="noopener noreferrer">
-            <LazyLoadImage className="navbar-logo" src={humoLogo} alt="logo" />
+            <img className="navbar-logo" src={humoLogo} alt="logo" />
           </a>
           <ul className="navbar-links">
             <li>
