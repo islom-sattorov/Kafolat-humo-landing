@@ -1,11 +1,10 @@
 .card-items {
   display: flex;
   justify-content: center;
-  padding: 70px 15px 0 15px;
+  padding: 60px 0;
   margin: 0 0 120px 0;
   /* margin: 0 0 20px 0; */
   gap: 15px;
-  border: 1px solid red;
 }
 
 .card-title {
@@ -53,7 +52,7 @@
     justify-content: stretch;
     align-items: center;
     flex-direction: column;
-    padding: 80px 24px 0 24px;
+    /* padding: 60px 24px 0 24px; */
   }
 
 
