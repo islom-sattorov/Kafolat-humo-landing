@@ -16,6 +16,7 @@
     background: #FFEDD7;
     padding: 150px 40px 200px 40px;
     position: relative;
+    overflow: hidden;
 }
 
 .header_text{
@@ -146,9 +147,11 @@
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
         width: 50%;
-        top: -70px;
-        right: 25%;
-        margin: auto;
+        /* height: 500px; */
+        height: 95%;
+        top: -140px;
+        right: 26%;
+        /* margin: auto; */
     }
 
     .header_percent{
@@ -193,9 +196,9 @@
     }
 
     .header_ellipse{
-        width: 150px;
-        right: 30%;
-        height: 300px;
+        width: 80%;
+        right: 10%;
+        height: 95%;
     }
 
     .header_title{
@@ -210,10 +213,10 @@
 
 @media(max-width: 370px){
     .header_ellipse{
-        height: 300px;
-        width: 200px;
-        right: 21%;
-        top: -100px;
+        height: 70%;
+        width: 65%;
+        right: 17%;
+        top: -70px;
     }
 
     .header_percent{
@@ -235,12 +238,11 @@
     }
 
     .header_ellipse{
-        width: 200px;
-        height: 280px;
-        top: -50px;
+        width: 70%;
+        height: 80%;
+        top: -100px;
         border-radius: 15px;
-        left: 0;
-        right: 0px;
+        right: 18%;
     }
 
     .header_percent{
@@ -266,9 +268,10 @@
     }
 
     .header_ellipse{
-        right: 0px;
-        width: 120px;
-        height: 200px;
-        top: -50px;
+        right: 10%;
+        width: 80%;
+        height: 70%;
+        top: -15%;
+        
     }
 }
