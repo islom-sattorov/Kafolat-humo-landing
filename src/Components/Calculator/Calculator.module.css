@@ -253,7 +253,6 @@
 
     .amountResult, .realResultAmount, .percent{
         font-size: 36px;
-        border: 1px solid red;
     }
 
     .calculatorContainer .sliderContainer .courseContainer {
