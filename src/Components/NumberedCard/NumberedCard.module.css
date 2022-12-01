@@ -109,8 +109,13 @@
 
 @media(max-width: 280px){
     .num{
-        left: 44%;
+        left: 42%;
         font-size: 24px;
     }
+}
 
+@media(max-width: 260px){
+    .num{
+        left: 39%;
+    }
 }

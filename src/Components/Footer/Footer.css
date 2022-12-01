@@ -104,6 +104,13 @@
   gap: 10px;
 }
 
+.tel_number_footer{
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 @media(max-width: 940px){
   .footer-scial-networks{
     flex-direction: column;
@@ -182,7 +189,11 @@
   .footer-scial-networks {
     font-size: 2rem;
   }
+
+  .tel_number_footer{
+    font-size: 18px;
   }
+}
 
 
 @media(max-width: 350px){

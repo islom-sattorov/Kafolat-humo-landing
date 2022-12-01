@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="container">
       <section className="hot-line">
         <h2>
-          <a className="tel-number" href="tel:+992(44)6405544">
+          <a className="tel_number_footer" href="tel:+992(44)6405544">
             +992 (44) 640 55 44
           </a>
         </h2>
