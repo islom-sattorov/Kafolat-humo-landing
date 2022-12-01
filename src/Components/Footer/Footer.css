@@ -222,6 +222,7 @@
   }
   .footer-scial-networks{
     flex-direction: column;
+    margin-bottom: 80px;
   }
   .sn-links{
     flex-direction: column;
