@@ -10,7 +10,7 @@
     justify-content: center;
     position: fixed;
     bottom: 20px;
-    left: 10px;
+    left: 20px;
     z-index: 100;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
