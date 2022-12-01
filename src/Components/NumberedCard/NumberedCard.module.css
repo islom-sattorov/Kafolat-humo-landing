@@ -26,7 +26,8 @@
     font-weight: 500;
     position: absolute;
     top: -25px;
-    left: 41%;
+    left: 43%;
+    /* margin: 0px 0px 0 0; */
 }
 .titleSecond{
     /* border: 2px solid orange; */
@@ -77,7 +78,7 @@
    
 @media(max-width: 450px){
     .num{
-        left: 46%;
+        left: 44%;
     }
 }
 
@@ -90,7 +91,7 @@
     .num{
         top: -24px;
         border-radius: 8px;
-        left: 42%;
+        left: 44%;
         width: 40px;
         height: 40px;
         font-size: 24px;
@@ -108,7 +109,7 @@
 
 @media(max-width: 280px){
     .num{
-        left: 39%;
+        left: 44%;
         font-size: 24px;
     }
 
