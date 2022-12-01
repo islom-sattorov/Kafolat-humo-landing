@@ -75,6 +75,12 @@
     }
 }
    
+@media(max-width: 450px){
+    .num{
+        left: 46%;
+    }
+}
+
 @media (max-width: 320px){
     .num__card__item{
         max-width: 320px;
