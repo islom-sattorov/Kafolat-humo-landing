@@ -238,15 +238,22 @@
     }
 
     .header_ellipse{
-        width: 70%;
-        height: 80%;
+        /* width: 70%;
+        height: 90%;
+        top: -120px; */
+        /* right: 14%; */
+        right: 0%;
+        width: 355px;
+        height: 355px;
         top: -100px;
-        border-radius: 15px;
-        right: 14%;
+        border-radius: 20px;
     }
 
     .header_percent{
-        top: 30px;
+        top: 100px;
+        left: 12%;
+        width: 240px;
+        height: 90px;
     }
 
 }

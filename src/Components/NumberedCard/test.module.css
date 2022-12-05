@@ -1,3 +1,7 @@
+.card_items{
+    border: 1px solid rebeccapurple;
+}
+
 .num__card__item{
     /* border: 2px solid red; */
     max-width: 400px;
@@ -51,7 +55,7 @@
     .num{
         /* max-width: 40px; */
         /* max-height: 40px; */
-        /* font-size: 2.2rem; */    
+        /* font-size: 2.2rem; */
         padding: 8px;
         top: -25px;
         left:47%;

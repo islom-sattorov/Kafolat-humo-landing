@@ -8,6 +8,7 @@ import FooterNavbar from "./Components/Footer/FooterNavbar";
 import Header from './Components/Header/Header';
 import Navbar from "./Components/Navbar/Navbar";
 import NumberedCard from "./Components/NumberedCard/NumberedCard";
+// import { NumberedCardTest } from "./Components/NumberedCard/NumberedCardTest";
 import Protection from "./Components/Protection/Protecton";
 import ScrollBtn from "./Components/ScrollBtn/ScrollBtn";
 
@@ -42,6 +43,7 @@ function App() {
             num={3}
             titleSecond="Внесите первый вклад в филиале или в Хумо Онлайн"
           />
+          {/* <NumberedCardTest /> */}
         </section>
         <Block />
       </div>

@@ -198,7 +198,7 @@
 
 @media(max-width: 350px){
   .footer-links{
-    gap: 0;
+    gap: 20px;
   }
 }
 

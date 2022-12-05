@@ -50,9 +50,12 @@
     display: none !important;
 }
 
-.calculatorContainer .sliderContainer .calculate .slider > div > div > div {
+.calculatorContainer .sliderContainer .calculate .slider > div > div > div{
     background: #FF5A1E !important;
     height: 2.5px !important;
+    /* -webkit-appearance: none !important;
+    appearance: none !important;
+    border-radius: 20px !important; */
 }
 
 .calculatorContainer .sliderContainer .calculate  .slider > div > div > span > div {
