@@ -226,11 +226,13 @@
 
 @media(max-width: 300px){
     .container{
-        max-width: 300px;
+        max-width: 300px;        
     }
-
+    
     .header_container{
         border-radius: 16px;
+        height: 470px;
+        padding: 300px 0 0 0;
     }
 
     .header_subtitle{
@@ -245,12 +247,12 @@
         right: 0%;
         width: 355px;
         height: 355px;
-        top: -100px;
-        border-radius: 20px;
+        top: -60px;
+        /* border-radius: 20px; */
     }
 
     .header_percent{
-        top: 100px;
+        top: 140px;
         left: 12%;
         width: 240px;
         height: 90px;
