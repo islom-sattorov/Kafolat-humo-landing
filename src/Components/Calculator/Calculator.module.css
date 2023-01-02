@@ -40,7 +40,7 @@
 .calculatorContainer .sliderContainer .calculate .slider {
     width: 100%;
     border-radius: 10px;
-    height: 9px;
+    height: 9px !important;
     margin: -5px 0 0 0;
     position: absolute !important;
     padding-right: 4px;
@@ -61,6 +61,8 @@
 .calculatorContainer .sliderContainer .calculate  .slider > div > div > span > div {
     background: #FFFFFF !important;
     border: 2px solid #FF5A1E !important;
+    height: 10px;
+    width: 10px;
 }
 /* Slider */
 
